@@ -58,7 +58,7 @@ Hierarchical Topics (JSON)
 
 #### **Phase 1: Preprocessing**
 
-Break responses into atomic thoughts and convert to semantic vectors:
+Break responses into atomic thoughts and convert to semantic vectors (e5-small-v2, 384D, cosine):
 
 ```
 Input:  "Great taste. Whitens teeth. Too expensive."
@@ -68,7 +68,13 @@ Output:
   - resp_42_2: "Too expensive" → [0.01, 0.78, ..., 0.34]
 ```
 
-**Why vectors?** Semantically similar text = geometrically close vectors. Enables similarity matching.
+**Why vectors?** Semantically similar text = geometrically close vectors. We use cosine similarity over 384‑dim e5 embeddings.
+
+**Why e5 works well for topics (training objective):**
+- e5 models are instruction-tuned for retrieval (contrastive learning on query–passage pairs). This produces a representation space where semantically related short texts form tight, separable clusters, which is ideal for topic discovery.
+- The objective calibrates cosine distances directly, so nearest‑prototype routing and cluster margins are meaningful without extra calibration.
+- Compared to SBERT (often fine‑tuned on NLI), e5’s retrieval‑style objective yields clearer separation for short survey segments and more stable margins across domains.
+- Compared to managed APIs (e.g., Bedrock embeddings), e5 offers local, reproducible embeddings with low latency and no rate/cost constraints—critical at 100K–1M scale.
 
 ---
 
