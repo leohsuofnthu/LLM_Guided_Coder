@@ -5,9 +5,12 @@ LLM-guided hierarchical topic discovery for survey responses using recursive net
 ## Quick Start
 
 ```bash
+# Create and activate Conda environment
+conda create -n disCoder python=3.10 -y
+conda activate disCoder
+
 # Install dependencies
 pip install -r requirements.txt
-conda activate disCoder
 
 # Run analysis
 python -m src.pipeline \
@@ -571,6 +574,24 @@ python -m src.pipeline --config config.huggingface.yaml --input data/responses.c
 
 **Pros**: No API key, no cost, private  
 **Cons**: Slower, requires GPU/CPU, lower quality (especially Phi-3)
+
+## Why e5-small-v2 (vs SBERT or Bedrock)
+
+- **e5-small-v2**
+  - Instruction-tuned for retrieval; cosine spaces are well calibrated → tighter, more separable clusters for short survey segments.
+  - Small, fast, and memory-efficient; runs locally on CPU/GPU, suitable for 100K–1M segments without API costs.
+  - Open weights and reproducible pipelines enable consistent results across environments.
+
+- **SBERT**
+  - Many checkpoints target NLI-style objectives; cosine calibration and cluster margins vary more across models.
+  - Often larger/slower for similar quality; in narrow domains we observed more overlap between clusters.
+
+- **Bedrock embeddings**
+  - Managed API introduces latency, rate limits, and variable cost at scale; harder to guarantee reproducibility.
+  - Vendor lock-in and throughput ceilings can bottleneck million-scale runs compared to local batch embedding.
+
+- **Practical takeaway**
+  - e5-small-v2 offers a strong quality–speed–cost tradeoff for survey segments. If you need higher quality and accept more compute, swap to a larger e5 family model (e.g., e5-base-v2) with minimal changes.
 
 ## Performance & Cost
 
