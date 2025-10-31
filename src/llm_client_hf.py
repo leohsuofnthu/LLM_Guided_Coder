@@ -170,6 +170,12 @@ class HuggingFaceLLMClient(LLMClient):
             label = label_part.strip()
             # Remove quotes if present
             label = label.strip('"\'')
+            # Remove markdown bold formatting (**, __, etc.)
+            label = re.sub(r'\*\*(.+?)\*\*', r'\1', label)  # **text**
+            label = re.sub(r'__(.+?)__', r'\1', label)      # __text__
+            label = re.sub(r'\*(.+?)\*', r'\1', label)      # *text*
+            label = re.sub(r'_(.+?)_', r'\1', label)        # _text_
+            label = label.strip()
             
             # Parse seeds - try semicolon, comma, or space
             raw_seeds = seeds_part.split(";") if ";" in seeds_part else seeds_part.split(",")

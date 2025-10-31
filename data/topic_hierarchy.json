@@ -1,462 +1,64 @@
 {
   "nets": {
-    "net_1": {
-      "label": "Taste And Flavor",
+    "net_0": {
+      "label": "Whitening Effectiveness",
       "seeds": [
-        "Great taste and refreshing",
-        "Nice minty flavor",
-        "Refreshing and clean taste",
-        "Long lasting fresh flavor",
-        "Good flavor and texture",
-        "Refreshing and minty",
-        "Easy to use, great taste"
+        "Teeth are noticeably whiter",
+        "Teeth feel smooth and shiny",
+        "Whitens teeth after use",
+        "Teeth look whiter and brighter",
+        "Improved teeth whiteness",
+        "Leaves teeth smooth and clean",
+        "Teeth are shiny and polished"
       ],
       "metrics": {
-        "member_count": 23,
-        "coverage": 0.09829059829059829,
+        "member_count": 27,
+        "coverage": 0.11538461538461539,
         "last_sampled_segments": [
-          "resp_0_1",
-          "resp_1_0",
-          "resp_9_0",
-          "resp_10_0",
-          "resp_13_0",
-          "resp_18_0",
-          "resp_23_1",
-          "resp_24_1",
-          "resp_28_2",
-          "resp_29_0"
+          "resp_2_1",
+          "resp_4_0",
+          "resp_5_0",
+          "resp_6_2",
+          "resp_10_1",
+          "resp_14_0",
+          "resp_15_0",
+          "resp_16_1",
+          "resp_16_2",
+          "resp_17_2"
         ],
-        "stability_hits": 2,
-        "prototype_similarity": 0.9757820963859558,
-        "seed_shift": 0.0709710568189621,
+        "stability_hits": 3,
+        "prototype_similarity": 0.9921393394470215,
+        "seed_shift": 0.05128847807645798,
         "seed_shift_fraction": 0.0,
-        "last_label_similarity": 0.8869390487670898,
-        "last_refresh_delta": 0.907960520549254,
-        "mean_confidence": 0.907960520549254,
+        "last_label_similarity": 0.8668222427368164,
+        "last_refresh_delta": 0.0007091359761006721,
+        "mean_confidence": 0.9056448839148696,
         "frozen": false
       },
       "examples": [
         {
-          "segment_id": "resp_30_1",
-          "segment_text": "It had a nice minty taste that was not overpowering.",
-          "response_id": "resp_30",
-          "response_text": "This toothpaste was very much to my liking. It had a nice minty taste that was not overpowering. It left my teeth feeling smooth and clean. It also left a nice shine after brushing. I would definitely buy and recommend it to others."
-        },
-        {
-          "segment_id": "resp_22_2",
-          "segment_text": "It's gentle, refreshing and it realty works",
-          "response_id": "resp_22",
-          "response_text": "This whitening toothpaste is effective. It probably won't match specialized whitening treatments but in terms of value for money it beats a lot of them. It's gentle, refreshing and it realty works"
-        },
-        {
-          "segment_id": "resp_63_2",
-          "segment_text": "It does have a fresh, minty taste though.",
-          "response_id": "resp_63",
-          "response_text": "This toothpaste is just okay. I didn't notice my teeth becoming whiter. It does have a fresh, minty taste though."
-        },
-        {
-          "segment_id": "resp_18_1",
-          "segment_text": "I strongly dislike when the texture is gritty, but this kind has a nice, smooth consistency.",
-          "response_id": "resp_18",
-          "response_text": "Toothpaste has a refreshing feel with a good texture. I strongly dislike when the texture is gritty, but this kind has a nice, smooth consistency. I like that the color is pure white and does not have any color dyes in it."
-        },
-        {
-          "segment_id": "resp_2_2",
-          "segment_text": "Clean and fresh",
-          "response_id": "resp_2",
-          "response_text": "Worked great. Cleaned my teeth much better. Clean and fresh"
-        },
-        {
-          "segment_id": "resp_52_1",
-          "segment_text": "The refreshing mint was an added plus that felt like it kept my mouth smelling fresh for longer than my normal toothpaste.",
-          "response_id": "resp_52",
-          "response_text": "This toothpaste left my mouth feeling clean for multiple hours after brushing. The refreshing mint was an added plus that felt like it kept my mouth smelling fresh for longer than my normal toothpaste."
-        },
-        {
-          "segment_id": "resp_28_2",
-          "segment_text": "The taste is great.",
-          "response_id": "resp_28",
-          "response_text": "This toothpaste whiten my teeth at least a shade or two. It leaves your teeth feeling smooth after every use. The taste is great. Also I would definitely recommend this to my family and friends."
-        },
-        {
-          "segment_id": "resp_61_1",
-          "segment_text": "The quality of freshness mixed with the icy taste makes it a win win all the way around.",
-          "response_id": "resp_61",
-          "response_text": "This toothpaste is phenomenal. The quality of freshness mixed with the icy taste makes it a win win all the way around. 10 out of 10"
-        },
-        {
-          "segment_id": "resp_94_2",
-          "segment_text": "It has a great taste",
-          "response_id": "resp_94",
-          "response_text": "This toothpaste cleans my teeth. My teeth are whiter than ever. It has a great taste"
-        },
-        {
-          "segment_id": "resp_18_2",
-          "segment_text": "I like that the color is pure white and does not have any color dyes in it.",
-          "response_id": "resp_18",
-          "response_text": "Toothpaste has a refreshing feel with a good texture. I strongly dislike when the texture is gritty, but this kind has a nice, smooth consistency. I like that the color is pure white and does not have any color dyes in it."
-        }
-      ],
-      "subnets": {}
-    },
-    "net_4": {
-      "label": "Breath Freshness",
-      "seeds": [
-        "good breath",
-        "breath smell amazing",
-        "fresh breath",
-        "long lasting breath",
-        "clean breath",
-        "fresh feeling",
-        "breath is fresh"
-      ],
-      "metrics": {
-        "member_count": 10,
-        "coverage": 0.042735042735042736
-      },
-      "examples": [
-        {
-          "segment_id": "resp_6_1",
-          "segment_text": "They felt really clean and my breath was fresh.",
-          "response_id": "resp_6",
-          "response_text": "What I liked about the toothpaste was the feeling on my teeth after. They felt really clean and my breath was fresh. Also after using it I could tell a huge difference in the whiteness of my teeth."
-        },
-        {
-          "segment_id": "resp_13_1",
-          "segment_text": "It leaves your breath feeling very fresh.",
-          "response_id": "resp_13",
-          "response_text": "Very good flavor, really like this mint flavor. It leaves your breath feeling very fresh."
-        },
-        {
-          "segment_id": "resp_31_1",
-          "segment_text": "It left me feeling clean and with good breath but it was not anything special.",
-          "response_id": "resp_31",
-          "response_text": "This toothpaste was just like all the name brand tooth pastes. It left me feeling clean and with good breath but it was not anything special. Did not see much whiting and did not help with sensitivity."
-        },
-        {
-          "segment_id": "resp_42_1",
-          "segment_text": "It isn't too harsh and leaves my breath minty all day long.",
-          "response_id": "resp_42",
-          "response_text": "This toothpaste makes my teeth squeaky clean and polished feeling. It isn't too harsh and leaves my breath minty all day long. I love how it feels and the taste is good as well."
-        },
-        {
-          "segment_id": "resp_59_3",
-          "segment_text": "It helped my breath smell better",
-          "response_id": "resp_59",
-          "response_text": "This toothpaste is the best toothpaste I have ever used. It got my teeth whiter. It kept my whole mouth feeling cleaner. It helped my breath smell better"
-        },
-        {
-          "segment_id": "resp_68_2",
-          "segment_text": "It successfully rids me of morning breath and gives me confidence for the rest of the day.",
-          "response_id": "resp_68",
-          "response_text": "This toothpaste is great! It leaves my mouth and teeth feeling fresh and clean. It successfully rids me of morning breath and gives me confidence for the rest of the day. My teeth are left shiny and plaque-free after using this toothpaste"
-        },
-        {
-          "segment_id": "resp_69_3",
-          "segment_text": "It leaves your breath smelling minty fresh.",
-          "response_id": "resp_69",
-          "response_text": "This toothpaste is great! It definitely seems like it is helping to whiten my teeth. They look much whiter to me and some of the old staining doesn't seem as drastic. It leaves your breath smelling minty fresh."
-        },
-        {
-          "segment_id": "resp_73_1",
-          "segment_text": "Your breath will smell amazing.",
-          "response_id": "resp_73",
-          "response_text": "This toothpaste is fabolous will leave your teeth feeling clean and fresh. Your breath will smell amazing."
-        },
-        {
-          "segment_id": "resp_78_3",
-          "segment_text": "My fresh breath lasts longer too!",
-          "response_id": "resp_78",
-          "response_text": "This toothpaste is amazing! My teeth are noticeably whiter and brighter. After brushing, my teeth also feel smooth and clean. My fresh breath lasts longer too! Great product. Definitely recommend!"
-        },
-        {
-          "segment_id": "resp_95_1",
-          "segment_text": "It creates a pleasant amount of foam and ensures a refreshing breath that lasts.",
-          "response_id": "resp_95",
-          "response_text": "This toothpaste cleans effectively, leaving your mouth feeling fresh without irritation. It creates a pleasant amount of foam and ensures a refreshing breath that lasts. The formula is gentle yet powerful, making it an ideal choice for daily use. Highly recommended for a comfortable and clean experience."
-        }
-      ],
-      "subnets": {}
-    },
-    "net_6": {
-      "label": "Product Recommendation",
-      "seeds": [
-        "recommend this",
-        "would buy more",
-        "recommend to family",
-        "highly recommend",
-        "would buy again",
-        "suggest this",
-        "recommend to friends"
-      ],
-      "metrics": {
-        "member_count": 18,
-        "coverage": 0.07692307692307693
-      },
-      "examples": [
-        {
-          "segment_id": "resp_0_2",
-          "segment_text": "What are you waiting for buy it now!!",
-          "response_id": "resp_0",
-          "response_text": "You should definitely be buying and trying this toothpaste. It taste great, it doesn't burn your tongue, and makes your teeth pearly white! What are you waiting for buy it now!!"
-        },
-        {
-          "segment_id": "resp_24_2",
-          "segment_text": "I highly recommend you try it.",
-          "response_id": "resp_24",
-          "response_text": "This toothpaste works great to brighten your teeth, making them whiter and shiny. Nice long lasting flavor that keeps your breath fresh. I highly recommend you try it."
-        },
-        {
-          "segment_id": "resp_80_1",
-          "segment_text": "This is a MUST!",
-          "response_id": "resp_80",
-          "response_text": "This toothpaste is A Game Changer, not only does it taste great, it actually has made my mouth feel fresher and my teeth are visibly whiter! This is a MUST!"
-        },
-        {
-          "segment_id": "resp_90_3",
-          "segment_text": "Would definitely keep using this.",
-          "response_id": "resp_90",
-          "response_text": "This toothpaste had my mouth feeling bright, clean, and fresh! Started whitening my teeth after the first couple uses! Made my teeth feel a bit sensitive but I've had that reaction with most whitening toothpastes. Would definitely keep using this."
-        },
-        {
-          "segment_id": "resp_23_2",
-          "segment_text": "Definitely a solid choice!",
-          "response_id": "resp_23",
-          "response_text": "This whitening fluoride toothpaste leaves my teeth feeling clean and fresh without sensitivity. The whitening is subtle but noticeable, and the flavor is nice. Definitely a solid choice!"
-        },
-        {
-          "segment_id": "resp_33_2",
-          "segment_text": "A must try.",
-          "response_id": "resp_33",
-          "response_text": "This toothpaste was better than expected, it made my teeth look brighter and my mouth feeling fresh. I recommend it to everyone. A must try."
-        },
-        {
-          "segment_id": "resp_30_4",
-          "segment_text": "I would definitely buy and recommend it to others.",
-          "response_id": "resp_30",
-          "response_text": "This toothpaste was very much to my liking. It had a nice minty taste that was not overpowering. It left my teeth feeling smooth and clean. It also left a nice shine after brushing. I would definitely buy and recommend it to others."
-        },
-        {
-          "segment_id": "resp_89_3",
-          "segment_text": "I would recommend this to anyone who wants a better smile!",
-          "response_id": "resp_89",
-          "response_text": "This toothpaste has a fresh clean taste and keeps my teeth clean all day. My teeth feel so smooth when I brush. And over the last 2 weeks my teeth have gotten brighter. I would recommend this to anyone who wants a better smile!"
-        },
-        {
-          "segment_id": "resp_93_2",
-          "segment_text": "It is definately a good investment of your money.",
-          "response_id": "resp_93",
-          "response_text": "This toothpaste freshener your breath longer than others. It whitens really well and made my teeth feel better. It is definately a good investment of your money."
-        },
-        {
-          "segment_id": "resp_95_3",
-          "segment_text": "Highly recommended for a comfortable and clean experience.",
-          "response_id": "resp_95",
-          "response_text": "This toothpaste cleans effectively, leaving your mouth feeling fresh without irritation. It creates a pleasant amount of foam and ensures a refreshing breath that lasts. The formula is gentle yet powerful, making it an ideal choice for daily use. Highly recommended for a comfortable and clean experience."
-        }
-      ],
-      "subnets": {}
-    },
-    "net_7": {
-      "label": "Appearance And Aesthetics",
-      "seeds": [
-        "look pretty",
-        "attractive packaging",
-        "nice design",
-        "appealing look",
-        "visually appealing",
-        "stylish packaging",
-        "good presentation"
-      ],
-      "metrics": {
-        "member_count": 1,
-        "coverage": 0.004273504273504274
-      },
-      "examples": [
-        {
-          "segment_id": "resp_81_2",
-          "segment_text": "They look pretty.",
-          "response_id": "resp_81",
-          "response_text": "This toothpaste I used is perfect .My teeth look a lot better ,they are bright and shiny.They look pretty."
-        }
-      ],
-      "subnets": {}
-    },
-    "net_8": {
-      "label": "Duration Of Effect",
-      "seeds": [
-        "lasts after use",
-        "see results",
-        "long lasting effect",
-        "lasting freshness",
-        "results in days",
-        "effect is noticeable",
-        "long term benefits"
-      ],
-      "metrics": {
-        "member_count": 6,
-        "coverage": 0.02564102564102564
-      },
-      "examples": [
-        {
-          "segment_id": "resp_2_0",
-          "segment_text": "Worked great.",
-          "response_id": "resp_2",
-          "response_text": "Worked great. Cleaned my teeth much better. Clean and fresh"
-        },
-        {
-          "segment_id": "resp_17_1",
-          "segment_text": "After a few days you will see results.",
-          "response_id": "resp_17",
-          "response_text": "Toothpaste is great. After a few days you will see results. My teeth have never been whiter!"
-        },
-        {
-          "segment_id": "resp_22_1",
-          "segment_text": "It probably won't match specialized whitening treatments but in terms of value for money it beats a lot of them.",
-          "response_id": "resp_22",
-          "response_text": "This whitening toothpaste is effective. It probably won't match specialized whitening treatments but in terms of value for money it beats a lot of them. It's gentle, refreshing and it realty works"
-        },
-        {
-          "segment_id": "resp_76_1",
-          "segment_text": "I've used it for two weeks and have noticed results almost instantly.",
-          "response_id": "resp_76",
-          "response_text": "This toothpaste is awesome! I've used it for two weeks and have noticed results almost instantly. My teeth are 2-3 times whiter and they shine so nice like they were polished. It also makes my mouth feel clean and breath feel fresh. I give this toothpaste five star."
-        },
-        {
-          "segment_id": "resp_84_1",
-          "segment_text": ".taste lasts after using for awhile too.",
-          "response_id": "resp_84",
-          "response_text": "This toothpaste has a very clean, refreshing feel and taste …..taste lasts after using for awhile too. My teeth feel and look shiny and seem whiter!!No negative's to say"
-        },
-        {
-          "segment_id": "resp_84_3",
-          "segment_text": "No negative's to say",
-          "response_id": "resp_84",
-          "response_text": "This toothpaste has a very clean, refreshing feel and taste …..taste lasts after using for awhile too. My teeth feel and look shiny and seem whiter!!No negative's to say"
-        }
-      ],
-      "subnets": {}
-    },
-    "net_9": {
-      "label": "Areas For Improvement",
-      "seeds": [
-        "did not see much",
-        "not a fan",
-        "could be better",
-        "needs improvement",
-        "not perfect",
-        "room for improvement",
-        "could be stronger"
-      ],
-      "metrics": {
-        "member_count": 5,
-        "coverage": 0.021367521367521368
-      },
-      "examples": [
-        {
-          "segment_id": "resp_1_0",
-          "segment_text": "Works pretty good wasn't a fan of the flavor.",
-          "response_id": "resp_1",
-          "response_text": "Works pretty good wasn't a fan of the flavor."
-        },
-        {
-          "segment_id": "resp_16_1",
-          "segment_text": "As a whitener, it wasn't as effective as I expected.",
+          "segment_id": "resp_16_2",
+          "segment_text": "My teeth do look at least a shade or so whiter.",
           "response_id": "resp_16",
           "response_text": "Toothpaste left teeth feeling clean and looking brighter! As a whitener, it wasn't as effective as I expected. My teeth do look at least a shade or so whiter. Good product overall!"
         },
         {
-          "segment_id": "resp_31_2",
-          "segment_text": "Did not see much whiting and did not help with sensitivity.",
-          "response_id": "resp_31",
-          "response_text": "This toothpaste was just like all the name brand tooth pastes. It left me feeling clean and with good breath but it was not anything special. Did not see much whiting and did not help with sensitivity."
+          "segment_id": "resp_91_0",
+          "segment_text": "This toothpaste gives you a nice white shiny appearance to your teeth",
+          "response_id": "resp_91",
+          "response_text": "This toothpaste gives you a nice white shiny appearance to your teeth"
         },
         {
-          "segment_id": "resp_50_2",
-          "segment_text": "The tastes isn't too strong either.",
-          "response_id": "resp_50",
-          "response_text": "This toothpaste left my teeth feeling and looking so clean and my breath smelling fresh. My teeth felt smooth and looked more white than they were before. The tastes isn't too strong either."
+          "segment_id": "resp_17_2",
+          "segment_text": "My teeth have never been whiter!",
+          "response_id": "resp_17",
+          "response_text": "Toothpaste is great. After a few days you will see results. My teeth have never been whiter!"
         },
         {
-          "segment_id": "resp_61_2",
-          "segment_text": "10 out of 10",
-          "response_id": "resp_61",
-          "response_text": "This toothpaste is phenomenal. The quality of freshness mixed with the icy taste makes it a win win all the way around. 10 out of 10"
-        }
-      ],
-      "subnets": {}
-    },
-    "net_0_split_1": {
-      "label": "Toothpaste Effects",
-      "seeds": [
-        "Leaves teeth feeling clean",
-        "Makes teeth look brighter",
-        "Whitens teeth",
-        "Leaves mouth feeling fresh",
-        "Makes teeth shiny",
-        "Improves teeth appearance",
-        "Effective cleaning action"
-      ],
-      "metrics": {
-        "member_count": 38,
-        "coverage": 0.1623931623931624,
-        "last_sampled_segments": [
-          "resp_0_0",
-          "resp_0_1",
-          "resp_5_0",
-          "resp_6_0",
-          "resp_6_2",
-          "resp_7_0",
-          "resp_8_0",
-          "resp_12_1",
-          "resp_12_2",
-          "resp_15_0"
-        ],
-        "stability_hits": 2,
-        "prototype_similarity": 0.9488838315010071,
-        "seed_shift": 0.08740150928497314,
-        "seed_shift_fraction": 0.0,
-        "last_label_similarity": 0.8862226009368896,
-        "last_refresh_delta": 0.8982864349496131,
-        "mean_confidence": 0.8982864349496131,
-        "frozen": false
-      },
-      "examples": [
-        {
-          "segment_id": "resp_53_0",
-          "segment_text": "This toothpaste leaves your mouth feeling fresh and teeth feeling clean.",
-          "response_id": "resp_53",
-          "response_text": "This toothpaste leaves your mouth feeling fresh and teeth feeling clean."
-        },
-        {
-          "segment_id": "resp_14_0",
-          "segment_text": "Very good ,teeth are clean white breath stays freash",
-          "response_id": "resp_14",
-          "response_text": "Very good ,teeth are clean white breath stays freash"
-        },
-        {
-          "segment_id": "resp_40_1",
-          "segment_text": "Multiple uses make teeth visibly whiter, and teeth feel extremely smooth and clean after every single use.",
-          "response_id": "resp_40",
-          "response_text": "This toothpaste makes your teeth visibly shinier with just one use! Multiple uses make teeth visibly whiter, and teeth feel extremely smooth and clean after every single use."
-        },
-        {
-          "segment_id": "resp_19_0",
-          "segment_text": "Toothpaste came in a plain white no design so kinda bleh didn't know how to feel about it but over all it worked great teeth fee fresh and cleaner",
-          "response_id": "resp_19",
-          "response_text": "Toothpaste came in a plain white no design so kinda bleh didn't know how to feel about it but over all it worked great teeth fee fresh and cleaner"
-        },
-        {
-          "segment_id": "resp_87_2",
-          "segment_text": "It helps to whiten your teeth as you use it each time.",
-          "response_id": "resp_87",
-          "response_text": "This Toothpaste has a good taste. It cleans my teeth and makes them feel like they were cleaned by a dentist. It helps to whiten your teeth as you use it each time."
-        },
-        {
-          "segment_id": "resp_23_0",
-          "segment_text": "This whitening fluoride toothpaste leaves my teeth feeling clean and fresh without sensitivity.",
-          "response_id": "resp_23",
-          "response_text": "This whitening fluoride toothpaste leaves my teeth feeling clean and fresh without sensitivity. The whitening is subtle but noticeable, and the flavor is nice. Definitely a solid choice!"
+          "segment_id": "resp_78_1",
+          "segment_text": "My teeth are noticeably whiter and brighter.",
+          "response_id": "resp_78",
+          "response_text": "This toothpaste is amazing! My teeth are noticeably whiter and brighter. After brushing, my teeth also feel smooth and clean. My fresh breath lasts longer too! Great product. Definitely recommend!"
         },
         {
           "segment_id": "resp_15_0",
@@ -471,69 +73,16 @@
           "response_text": "White teeth and a beautiful smile, this tooth paste is for you Without much effort, you'll refresh your smile 5 stars , indeed"
         },
         {
-          "segment_id": "resp_45_0",
-          "segment_text": "This toothpaste made my teeth, feel clean and also whiten them, which is very hard to do with other toothpaste because I enjoy coffee, red wine, and that has stained my teeth over the years.",
-          "response_id": "resp_45",
-          "response_text": "This toothpaste made my teeth, feel clean and also whiten them, which is very hard to do with other toothpaste because I enjoy coffee, red wine, and that has stained my teeth over the years. I am very happy with this toothpaste."
+          "segment_id": "resp_69_2",
+          "segment_text": "They look much whiter to me and some of the old staining doesn't seem as drastic.",
+          "response_id": "resp_69",
+          "response_text": "This toothpaste is great! It definitely seems like it is helping to whiten my teeth. They look much whiter to me and some of the old staining doesn't seem as drastic. It leaves your breath smelling minty fresh."
         },
         {
-          "segment_id": "resp_57_1",
-          "segment_text": "It freshens your breath and makes your teeth shiny, if used everyday it starts to move your teeth to a more white shade as you use it.",
-          "response_id": "resp_57",
-          "response_text": "This toothpaste is very minty and leaves your teeth feeling clean. It freshens your breath and makes your teeth shiny, if used everyday it starts to move your teeth to a more white shade as you use it."
-        }
-      ],
-      "subnets": {}
-    },
-    "net_2_split_1": {
-      "label": "Improved Whitening",
-      "seeds": [
-        "My teeth feel and look shiny and seem whiter!!",
-        "My teeth do look at least a shade or so whiter.",
-        "My teeth are noticeably whiter and brighter.",
-        "And over the last 2 weeks my teeth have gotten brighter.",
-        "My teeth are whiter than ever."
-      ],
-      "metrics": {
-        "member_count": 43,
-        "coverage": 0.18376068376068377
-      },
-      "examples": [
-        {
-          "segment_id": "resp_30_2",
-          "segment_text": "It left my teeth feeling smooth and clean.",
-          "response_id": "resp_30",
-          "response_text": "This toothpaste was very much to my liking. It had a nice minty taste that was not overpowering. It left my teeth feeling smooth and clean. It also left a nice shine after brushing. I would definitely buy and recommend it to others."
-        },
-        {
-          "segment_id": "resp_92_2",
-          "segment_text": "I've noticed an improvement in stains.",
-          "response_id": "resp_92",
-          "response_text": "This toothpaste gives me the freshest breath and lingering freshness. My teeth feel smooth and are shiny. I've noticed an improvement in stains."
-        },
-        {
-          "segment_id": "resp_84_2",
-          "segment_text": "My teeth feel and look shiny and seem whiter!!",
-          "response_id": "resp_84",
-          "response_text": "This toothpaste has a very clean, refreshing feel and taste …..taste lasts after using for awhile too. My teeth feel and look shiny and seem whiter!!No negative's to say"
-        },
-        {
-          "segment_id": "resp_6_2",
-          "segment_text": "Also after using it I could tell a huge difference in the whiteness of my teeth.",
-          "response_id": "resp_6",
-          "response_text": "What I liked about the toothpaste was the feeling on my teeth after. They felt really clean and my breath was fresh. Also after using it I could tell a huge difference in the whiteness of my teeth."
-        },
-        {
-          "segment_id": "resp_78_1",
-          "segment_text": "My teeth are noticeably whiter and brighter.",
-          "response_id": "resp_78",
-          "response_text": "This toothpaste is amazing! My teeth are noticeably whiter and brighter. After brushing, my teeth also feel smooth and clean. My fresh breath lasts longer too! Great product. Definitely recommend!"
-        },
-        {
-          "segment_id": "resp_60_1",
-          "segment_text": "i saw differences in my teeth within a matter of days.",
-          "response_id": "resp_60",
-          "response_text": "this toothpaste is rather good. i saw differences in my teeth within a matter of days. not only does it smell good but it left my teeth brighter."
+          "segment_id": "resp_99_1",
+          "segment_text": "I realized whitening after first use .",
+          "response_id": "resp_99",
+          "response_text": "This tooth paste is amazing . I realized whitening after first use . I wish I knew the name brand so I could buy more for future uses"
         },
         {
           "segment_id": "resp_63_1",
@@ -542,63 +91,97 @@
           "response_text": "This toothpaste is just okay. I didn't notice my teeth becoming whiter. It does have a fresh, minty taste though."
         },
         {
-          "segment_id": "resp_81_1",
-          "segment_text": "My teeth look a lot better ,they are bright and shiny.",
-          "response_id": "resp_81",
-          "response_text": "This toothpaste I used is perfect .My teeth look a lot better ,they are bright and shiny.They look pretty."
-        },
-        {
-          "segment_id": "resp_93_1",
-          "segment_text": "It whitens really well and made my teeth feel better.",
-          "response_id": "resp_93",
-          "response_text": "This toothpaste freshener your breath longer than others. It whitens really well and made my teeth feel better. It is definately a good investment of your money."
-        },
-        {
-          "segment_id": "resp_69_2",
-          "segment_text": "They look much whiter to me and some of the old staining doesn't seem as drastic.",
-          "response_id": "resp_69",
-          "response_text": "This toothpaste is great! It definitely seems like it is helping to whiten my teeth. They look much whiter to me and some of the old staining doesn't seem as drastic. It leaves your breath smelling minty fresh."
+          "segment_id": "resp_4_0",
+          "segment_text": "Whitening, thick, cleans teeth.",
+          "response_id": "resp_4",
+          "response_text": "Whitening, thick, cleans teeth."
         }
       ],
       "subnets": {}
     },
-    "net_3_split_0": {
-      "label": "Positive Experience",
+    "net_1": {
+      "label": "Freshness & Breath",
       "seeds": [
-        "This toothpaste is great.",
-        "This toothpaste is phenomenal.",
-        "This toothpaste is amazing!",
-        "Good product overall!",
-        "This toothpaste is the best toothpaste I have ever used."
+        "Teeth feel clean",
+        "Breath feels fresh",
+        "Leaves mouth feeling clean",
+        "Nice minty taste",
+        "Effective cleaning",
+        "Long-lasting freshness",
+        "Teeth feel smooth"
       ],
       "metrics": {
-        "member_count": 90,
-        "coverage": 0.38461538461538464
+        "member_count": 29,
+        "coverage": 0.12393162393162394,
+        "last_sampled_segments": [
+          "resp_2_2",
+          "resp_3_0",
+          "resp_6_1",
+          "resp_8_0",
+          "resp_9_1",
+          "resp_10_0",
+          "resp_10_2",
+          "resp_11_0",
+          "resp_12_2",
+          "resp_13_1"
+        ],
+        "stability_hits": 3,
+        "prototype_similarity": 0.9909796118736267,
+        "seed_shift": 0.07052118331193924,
+        "seed_shift_fraction": 0.0,
+        "last_label_similarity": 0.8772332668304443,
+        "last_refresh_delta": 0.0029669586528090486,
+        "mean_confidence": 0.9050075968970424,
+        "frozen": false
       },
       "examples": [
         {
-          "segment_id": "resp_18_0",
-          "segment_text": "Toothpaste has a refreshing feel with a good texture.",
-          "response_id": "resp_18",
-          "response_text": "Toothpaste has a refreshing feel with a good texture. I strongly dislike when the texture is gritty, but this kind has a nice, smooth consistency. I like that the color is pure white and does not have any color dyes in it."
+          "segment_id": "resp_85_1",
+          "segment_text": "My mouth stays fresh for a decent period of time.",
+          "response_id": "resp_85",
+          "response_text": "This toothpaste has a pleasant taste and aroma, and seems to effectively clean my teeth. My mouth stays fresh for a decent period of time."
         },
         {
-          "segment_id": "resp_68_3",
-          "segment_text": "My teeth are left shiny and plaque-free after using this toothpaste",
-          "response_id": "resp_68",
-          "response_text": "This toothpaste is great! It leaves my mouth and teeth feeling fresh and clean. It successfully rids me of morning breath and gives me confidence for the rest of the day. My teeth are left shiny and plaque-free after using this toothpaste"
+          "segment_id": "resp_55_0",
+          "segment_text": "This toothpaste lasts a long time.",
+          "response_id": "resp_55",
+          "response_text": "This toothpaste lasts a long time. It makes myouth feel clean and fresh. Foams nicely, just the right flavor and my teeth feel smooth and clean."
         },
         {
-          "segment_id": "resp_78_4",
-          "segment_text": "Great product.",
-          "response_id": "resp_78",
-          "response_text": "This toothpaste is amazing! My teeth are noticeably whiter and brighter. After brushing, my teeth also feel smooth and clean. My fresh breath lasts longer too! Great product. Definitely recommend!"
+          "segment_id": "resp_24_1",
+          "segment_text": "Nice long lasting flavor that keeps your breath fresh.",
+          "response_id": "resp_24",
+          "response_text": "This toothpaste works great to brighten your teeth, making them whiter and shiny. Nice long lasting flavor that keeps your breath fresh. I highly recommend you try it."
         },
         {
-          "segment_id": "resp_50_0",
-          "segment_text": "This toothpaste left my teeth feeling and looking so clean and my breath smelling fresh.",
-          "response_id": "resp_50",
-          "response_text": "This toothpaste left my teeth feeling and looking so clean and my breath smelling fresh. My teeth felt smooth and looked more white than they were before. The tastes isn't too strong either."
+          "segment_id": "resp_30_1",
+          "segment_text": "It had a nice minty taste that was not overpowering.",
+          "response_id": "resp_30",
+          "response_text": "This toothpaste was very much to my liking. It had a nice minty taste that was not overpowering. It left my teeth feeling smooth and clean. It also left a nice shine after brushing. I would definitely buy and recommend it to others."
+        },
+        {
+          "segment_id": "resp_63_2",
+          "segment_text": "It does have a fresh, minty taste though.",
+          "response_id": "resp_63",
+          "response_text": "This toothpaste is just okay. I didn't notice my teeth becoming whiter. It does have a fresh, minty taste though."
+        },
+        {
+          "segment_id": "resp_96_1",
+          "segment_text": "After I'm done brushing my teeth I get a cool fresh feeling",
+          "response_id": "resp_96",
+          "response_text": "This toothpaste brand is refreshing for my mouth and has a terrific taste. After I'm done brushing my teeth I get a cool fresh feeling"
+        },
+        {
+          "segment_id": "resp_55_1",
+          "segment_text": "It makes myouth feel clean and fresh.",
+          "response_id": "resp_55",
+          "response_text": "This toothpaste lasts a long time. It makes myouth feel clean and fresh. Foams nicely, just the right flavor and my teeth feel smooth and clean."
+        },
+        {
+          "segment_id": "resp_84_0",
+          "segment_text": "This toothpaste has a very clean, refreshing feel and taste ….",
+          "response_id": "resp_84",
+          "response_text": "This toothpaste has a very clean, refreshing feel and taste …..taste lasts after using for awhile too. My teeth feel and look shiny and seem whiter!!No negative's to say"
         },
         {
           "segment_id": "resp_58_1",
@@ -607,121 +190,421 @@
           "response_text": "This toothpaste is truly amazing, have not used a toothpaste in a long time that leaves your month feeling refreshed and silky clean. This toothpaste does not taste bad and the fresh breath experience lasts throughout the day. Looking forward to knowing the name of the toothpaste so I can purchase it in the future."
         },
         {
-          "segment_id": "resp_62_0",
-          "segment_text": "This toothpaste is minty and effective .",
-          "response_id": "resp_62",
-          "response_text": "This toothpaste is minty and effective . Leaves your teeth feeling clean and shiny"
+          "segment_id": "resp_42_1",
+          "segment_text": "It isn't too harsh and leaves my breath minty all day long.",
+          "response_id": "resp_42",
+          "response_text": "This toothpaste makes my teeth squeaky clean and polished feeling. It isn't too harsh and leaves my breath minty all day long. I love how it feels and the taste is good as well."
+        }
+      ],
+      "subnets": {}
+    },
+    "net_3": {
+      "label": "Taste & Flavor",
+      "seeds": [
+        "good taste",
+        "flavor good",
+        "not fan flavor",
+        "taste lasts",
+        "refreshing taste",
+        "flavor",
+        "taste"
+      ],
+      "metrics": {
+        "member_count": 5,
+        "coverage": 0.021367521367521368
+      },
+      "examples": [
+        {
+          "segment_id": "resp_1_0",
+          "segment_text": "Works pretty good wasn't a fan of the flavor.",
+          "response_id": "resp_1",
+          "response_text": "Works pretty good wasn't a fan of the flavor."
         },
         {
-          "segment_id": "resp_97_0",
-          "segment_text": "This tooth paste was amazing.",
-          "response_id": "resp_97",
-          "response_text": "This tooth paste was amazing. It made my teeth feel so clean and feel so shiny I would love to buy this product"
+          "segment_id": "resp_28_2",
+          "segment_text": "The taste is great.",
+          "response_id": "resp_28",
+          "response_text": "This toothpaste whiten my teeth at least a shade or two. It leaves your teeth feeling smooth after every use. The taste is great. Also I would definitely recommend this to my family and friends."
         },
         {
-          "segment_id": "resp_31_0",
-          "segment_text": "This toothpaste was just like all the name brand tooth pastes.",
-          "response_id": "resp_31",
-          "response_text": "This toothpaste was just like all the name brand tooth pastes. It left me feeling clean and with good breath but it was not anything special. Did not see much whiting and did not help with sensitivity."
-        },
-        {
-          "segment_id": "resp_42_0",
-          "segment_text": "This toothpaste makes my teeth squeaky clean and polished feeling.",
+          "segment_id": "resp_42_2",
+          "segment_text": "I love how it feels and the taste is good as well.",
           "response_id": "resp_42",
           "response_text": "This toothpaste makes my teeth squeaky clean and polished feeling. It isn't too harsh and leaves my breath minty all day long. I love how it feels and the taste is good as well."
         },
         {
-          "segment_id": "resp_97_1",
-          "segment_text": "It made my teeth feel so clean and feel so shiny I would love to buy this product",
-          "response_id": "resp_97",
-          "response_text": "This tooth paste was amazing. It made my teeth feel so clean and feel so shiny I would love to buy this product"
+          "segment_id": "resp_50_2",
+          "segment_text": "The tastes isn't too strong either.",
+          "response_id": "resp_50",
+          "response_text": "This toothpaste left my teeth feeling and looking so clean and my breath smelling fresh. My teeth felt smooth and looked more white than they were before. The tastes isn't too strong either."
+        },
+        {
+          "segment_id": "resp_94_2",
+          "segment_text": "It has a great taste",
+          "response_id": "resp_94",
+          "response_text": "This toothpaste cleans my teeth. My teeth are whiter than ever. It has a great taste"
+        }
+      ],
+      "subnets": {}
+    },
+    "net_4": {
+      "label": "Sensitivity Impact",
+      "seeds": [
+        "not help sensitivity",
+        "sensitive teeth",
+        "sensitivity",
+        "gentle",
+        "soothing",
+        "calming",
+        "less sensitive"
+      ],
+      "metrics": {
+        "member_count": 1,
+        "coverage": 0.004273504273504274
+      },
+      "examples": [
+        {
+          "segment_id": "resp_31_2",
+          "segment_text": "Did not see much whiting and did not help with sensitivity.",
+          "response_id": "resp_31",
+          "response_text": "This toothpaste was just like all the name brand tooth pastes. It left me feeling clean and with good breath but it was not anything special. Did not see much whiting and did not help with sensitivity."
+        }
+      ],
+      "subnets": {}
+    },
+    "net_5": {
+      "label": "Duration Of Effect",
+      "seeds": [
+        "lasts awhile",
+        "few days results",
+        "long lasting",
+        "lasting effect",
+        "duration",
+        "how long",
+        "stays fresh"
+      ],
+      "metrics": {
+        "member_count": 3,
+        "coverage": 0.01282051282051282
+      },
+      "examples": [
+        {
+          "segment_id": "resp_17_1",
+          "segment_text": "After a few days you will see results.",
+          "response_id": "resp_17",
+          "response_text": "Toothpaste is great. After a few days you will see results. My teeth have never been whiter!"
+        },
+        {
+          "segment_id": "resp_61_2",
+          "segment_text": "10 out of 10",
+          "response_id": "resp_61",
+          "response_text": "This toothpaste is phenomenal. The quality of freshness mixed with the icy taste makes it a win win all the way around. 10 out of 10"
+        },
+        {
+          "segment_id": "resp_84_1",
+          "segment_text": ".taste lasts after using for awhile too.",
+          "response_id": "resp_84",
+          "response_text": "This toothpaste has a very clean, refreshing feel and taste …..taste lasts after using for awhile too. My teeth feel and look shiny and seem whiter!!No negative's to say"
+        }
+      ],
+      "subnets": {}
+    },
+    "net_7": {
+      "label": "Desire For More",
+      "seeds": [
+        "buy more",
+        "want more",
+        "need more",
+        "future use",
+        "name brand",
+        "where to buy",
+        "repurchase"
+      ],
+      "metrics": {
+        "member_count": 3,
+        "coverage": 0.01282051282051282
+      },
+      "examples": [
+        {
+          "segment_id": "resp_0_2",
+          "segment_text": "What are you waiting for buy it now!!",
+          "response_id": "resp_0",
+          "response_text": "You should definitely be buying and trying this toothpaste. It taste great, it doesn't burn your tongue, and makes your teeth pearly white! What are you waiting for buy it now!!"
+        },
+        {
+          "segment_id": "resp_81_2",
+          "segment_text": "They look pretty.",
+          "response_id": "resp_81",
+          "response_text": "This toothpaste I used is perfect .My teeth look a lot better ,they are bright and shiny.They look pretty."
+        },
+        {
+          "segment_id": "resp_99_2",
+          "segment_text": "I wish I knew the name brand so I could buy more for future uses",
+          "response_id": "resp_99",
+          "response_text": "This tooth paste is amazing . I realized whitening after first use . I wish I knew the name brand so I could buy more for future uses"
+        }
+      ],
+      "subnets": {}
+    },
+    "net_2_split_1": {
+      "label": "Strong Recommendation",
+      "seeds": [
+        "Highly recommend this product.",
+        "Worked great.",
+        "Very good product.",
+        "Definitely a solid choice!",
+        "I highly recommend it.",
+        "A must try.",
+        "Would definitely keep using this."
+      ],
+      "metrics": {
+        "member_count": 25,
+        "coverage": 0.10683760683760683,
+        "last_sampled_segments": [
+          "resp_0_0",
+          "resp_2_0",
+          "resp_12_0",
+          "resp_16_3",
+          "resp_23_2",
+          "resp_24_2",
+          "resp_28_3",
+          "resp_30_4",
+          "resp_33_1",
+          "resp_33_2"
+        ],
+        "stability_hits": 2,
+        "prototype_similarity": 0.9724142551422119,
+        "seed_shift": 0.07936044037342072,
+        "seed_shift_fraction": 0.0,
+        "last_label_similarity": 0.8455549478530884,
+        "last_refresh_delta": 0.912974551320076,
+        "mean_confidence": 0.912974551320076,
+        "frozen": false
+      },
+      "examples": [
+        {
+          "segment_id": "resp_12_0",
+          "segment_text": "Very good product.",
+          "response_id": "resp_12",
+          "response_text": "Very good product. If I am being honest about this toothpaste I would have to say if leaves you with that after dentist feel. I love how it works from leaving my mouth feeling fresh to the whitening affect. This product gets the job done"
+        },
+        {
+          "segment_id": "resp_76_1",
+          "segment_text": "I've used it for two weeks and have noticed results almost instantly.",
+          "response_id": "resp_76",
+          "response_text": "This toothpaste is awesome! I've used it for two weeks and have noticed results almost instantly. My teeth are 2-3 times whiter and they shine so nice like they were polished. It also makes my mouth feel clean and breath feel fresh. I give this toothpaste five star."
+        },
+        {
+          "segment_id": "resp_78_5",
+          "segment_text": "Definitely recommend!",
+          "response_id": "resp_78",
+          "response_text": "This toothpaste is amazing! My teeth are noticeably whiter and brighter. After brushing, my teeth also feel smooth and clean. My fresh breath lasts longer too! Great product. Definitely recommend!"
+        },
+        {
+          "segment_id": "resp_28_3",
+          "segment_text": "Also I would definitely recommend this to my family and friends.",
+          "response_id": "resp_28",
+          "response_text": "This toothpaste whiten my teeth at least a shade or two. It leaves your teeth feeling smooth after every use. The taste is great. Also I would definitely recommend this to my family and friends."
+        },
+        {
+          "segment_id": "resp_33_1",
+          "segment_text": "I recommend it to everyone.",
+          "response_id": "resp_33",
+          "response_text": "This toothpaste was better than expected, it made my teeth look brighter and my mouth feeling fresh. I recommend it to everyone. A must try."
+        },
+        {
+          "segment_id": "resp_39_1",
+          "segment_text": "Highly recommend as it doesn't hurt your teeth.",
+          "response_id": "resp_39",
+          "response_text": "This toothpaste not only brightens and whitens your teeth, but it has a good flavor. Highly recommend as it doesn't hurt your teeth."
+        },
+        {
+          "segment_id": "resp_12_3",
+          "segment_text": "This product gets the job done",
+          "response_id": "resp_12",
+          "response_text": "Very good product. If I am being honest about this toothpaste I would have to say if leaves you with that after dentist feel. I love how it works from leaving my mouth feeling fresh to the whitening affect. This product gets the job done"
+        },
+        {
+          "segment_id": "resp_23_2",
+          "segment_text": "Definitely a solid choice!",
+          "response_id": "resp_23",
+          "response_text": "This whitening fluoride toothpaste leaves my teeth feeling clean and fresh without sensitivity. The whitening is subtle but noticeable, and the flavor is nice. Definitely a solid choice!"
+        },
+        {
+          "segment_id": "resp_89_3",
+          "segment_text": "I would recommend this to anyone who wants a better smile!",
+          "response_id": "resp_89",
+          "response_text": "This toothpaste has a fresh clean taste and keeps my teeth clean all day. My teeth feel so smooth when I brush. And over the last 2 weeks my teeth have gotten brighter. I would recommend this to anyone who wants a better smile!"
+        },
+        {
+          "segment_id": "resp_86_2",
+          "segment_text": "This definitely would be my new go to!",
+          "response_id": "resp_86",
+          "response_text": "This toothpaste has a great taste, very easy to use and easy to see the results. My teeth felt shinier, I would say my teeth are pretty white and so I didn't see too much improvement in that area but my breath smelled a TON better than any of the other toothpastes I'd been using. This definitely would be my new go to!"
+        }
+      ],
+      "subnets": {}
+    },
+    "net_2_split_0_split_0_split_0": {
+      "label": "Enhanced Cleanliness & Feel",
+      "seeds": [
+        "I was able to run my tongue over my teeth and feel nothing but smooth surface.",
+        "This toothpaste made my mouth and teeth feel nice and fresh.",
+        "My teeth feel so smooth when I brush.",
+        "It made your teeth smooth, and I found personally that I didn't have as much tar as I usually do.",
+        "It made my teeth feel so clean and feel so shiny I would love to buy this product"
+      ],
+      "metrics": {
+        "member_count": 141,
+        "coverage": 0.6025641025641025
+      },
+      "examples": [
+        {
+          "segment_id": "resp_23_0",
+          "segment_text": "This whitening fluoride toothpaste leaves my teeth feeling clean and fresh without sensitivity.",
+          "response_id": "resp_23",
+          "response_text": "This whitening fluoride toothpaste leaves my teeth feeling clean and fresh without sensitivity. The whitening is subtle but noticeable, and the flavor is nice. Definitely a solid choice!"
+        },
+        {
+          "segment_id": "resp_86_1",
+          "segment_text": "My teeth felt shinier, I would say my teeth are pretty white and so I didn't see too much improvement in that area but my breath smelled a TON better than any of the other toothpastes I'd been using.",
+          "response_id": "resp_86",
+          "response_text": "This toothpaste has a great taste, very easy to use and easy to see the results. My teeth felt shinier, I would say my teeth are pretty white and so I didn't see too much improvement in that area but my breath smelled a TON better than any of the other toothpastes I'd been using. This definitely would be my new go to!"
+        },
+        {
+          "segment_id": "resp_76_3",
+          "segment_text": "It also makes my mouth feel clean and breath feel fresh.",
+          "response_id": "resp_76",
+          "response_text": "This toothpaste is awesome! I've used it for two weeks and have noticed results almost instantly. My teeth are 2-3 times whiter and they shine so nice like they were polished. It also makes my mouth feel clean and breath feel fresh. I give this toothpaste five star."
+        },
+        {
+          "segment_id": "resp_59_2",
+          "segment_text": "It kept my whole mouth feeling cleaner.",
+          "response_id": "resp_59",
+          "response_text": "This toothpaste is the best toothpaste I have ever used. It got my teeth whiter. It kept my whole mouth feeling cleaner. It helped my breath smell better"
+        },
+        {
+          "segment_id": "resp_9_1",
+          "segment_text": "Made my teeth feel fresh and clean",
+          "response_id": "resp_9",
+          "response_text": "Very refreshing Toothpaste. Made my teeth feel fresh and clean"
+        },
+        {
+          "segment_id": "resp_80_0",
+          "segment_text": "This toothpaste is A Game Changer, not only does it taste great, it actually has made my mouth feel fresher and my teeth are visibly whiter!",
+          "response_id": "resp_80",
+          "response_text": "This toothpaste is A Game Changer, not only does it taste great, it actually has made my mouth feel fresher and my teeth are visibly whiter! This is a MUST!"
+        },
+        {
+          "segment_id": "resp_71_0",
+          "segment_text": "This toothpaste is great my teeth are much brighter than prior use and my mouth constantly feels clean throughout the day!",
+          "response_id": "resp_71",
+          "response_text": "This toothpaste is great my teeth are much brighter than prior use and my mouth constantly feels clean throughout the day!"
+        },
+        {
+          "segment_id": "resp_76_0",
+          "segment_text": "This toothpaste is awesome!",
+          "response_id": "resp_76",
+          "response_text": "This toothpaste is awesome! I've used it for two weeks and have noticed results almost instantly. My teeth are 2-3 times whiter and they shine so nice like they were polished. It also makes my mouth feel clean and breath feel fresh. I give this toothpaste five star."
+        },
+        {
+          "segment_id": "resp_87_1",
+          "segment_text": "It cleans my teeth and makes them feel like they were cleaned by a dentist.",
+          "response_id": "resp_87",
+          "response_text": "This Toothpaste has a good taste. It cleans my teeth and makes them feel like they were cleaned by a dentist. It helps to whiten your teeth as you use it each time."
+        },
+        {
+          "segment_id": "resp_18_2",
+          "segment_text": "I like that the color is pure white and does not have any color dyes in it.",
+          "response_id": "resp_18",
+          "response_text": "Toothpaste has a refreshing feel with a good texture. I strongly dislike when the texture is gritty, but this kind has a nice, smooth consistency. I like that the color is pure white and does not have any color dyes in it."
         }
       ],
       "subnets": {
         "net_0": {
-          "label": "Positive Toothpaste Experience",
+          "label": "General Feedback",
           "seeds": [
-            "Refreshing and clean feeling",
-            "Leaves teeth shiny and white",
-            "Great taste and easy to use",
-            "Provides a long-lasting fresh breath",
-            "Excellent product overall",
-            "Makes teeth feel squeaky clean",
-            "Would purchase this toothpaste"
+            "Leaves mouth feeling fresh",
+            "Teeth visibly whiter",
+            "Makes teeth feel clean and shiny",
+            "Freshens breath longer",
+            "Good flavor and taste",
+            "Overall positive experience",
+            "Would purchase again"
           ],
           "metrics": {
-            "member_count": 36,
+            "member_count": 56,
             "coverage": 1.0,
             "last_sampled_segments": [
-              "resp_0_0",
+              "resp_0_1",
               "resp_6_0",
+              "resp_6_2",
               "resp_7_0",
               "resp_12_1",
-              "resp_16_3",
-              "resp_29_0",
-              "resp_30_0",
-              "resp_31_0",
-              "resp_32_0",
-              "resp_34_3"
+              "resp_12_2",
+              "resp_13_0",
+              "resp_16_1",
+              "resp_17_0",
+              "resp_18_1"
             ],
             "stability_hits": 3,
-            "prototype_similarity": 1.0000001192092896,
-            "seed_shift": 0.08361790329217911,
+            "prototype_similarity": 0.9971607327461243,
+            "seed_shift": 0.0841272696852684,
             "seed_shift_fraction": 0.0,
-            "last_label_similarity": 1.0,
-            "last_refresh_delta": 0.0,
-            "mean_confidence": 0.904078432255321,
+            "last_label_similarity": 0.781180739402771,
+            "last_refresh_delta": 0.0003723597952297597,
+            "mean_confidence": 0.8852295630744526,
             "frozen": false,
-            "parent_similarity": 0.9477413296699524
+            "parent_similarity": 0.9392514824867249
           },
           "examples": [
             {
-              "segment_id": "resp_64_0",
-              "segment_text": "This toothpaste is incredibly good I would purchase this",
-              "response_id": "resp_64",
-              "response_text": "This toothpaste is incredibly good I would purchase this"
+              "segment_id": "resp_12_2",
+              "segment_text": "I love how it works from leaving my mouth feeling fresh to the whitening affect.",
+              "response_id": "resp_12",
+              "response_text": "Very good product. If I am being honest about this toothpaste I would have to say if leaves you with that after dentist feel. I love how it works from leaving my mouth feeling fresh to the whitening affect. This product gets the job done"
             },
             {
-              "segment_id": "resp_75_0",
-              "segment_text": "This toothpaste is basic, don't spend more than $5 on this tube.",
-              "response_id": "resp_75",
-              "response_text": "This toothpaste is basic, don't spend more than $5 on this tube. It leaves a decent taste in your mouth for a SHORT time, cleans the teeth, but does not whiten. Nu mid-morning, you're wishing you had your toothbrush with you."
+              "segment_id": "resp_30_3",
+              "segment_text": "It also left a nice shine after brushing.",
+              "response_id": "resp_30",
+              "response_text": "This toothpaste was very much to my liking. It had a nice minty taste that was not overpowering. It left my teeth feeling smooth and clean. It also left a nice shine after brushing. I would definitely buy and recommend it to others."
             },
             {
-              "segment_id": "resp_16_3",
-              "segment_text": "Good product overall!",
-              "response_id": "resp_16",
-              "response_text": "Toothpaste left teeth feeling clean and looking brighter! As a whitener, it wasn't as effective as I expected. My teeth do look at least a shade or so whiter. Good product overall!"
+              "segment_id": "resp_26_1",
+              "segment_text": "It's not too strong, so it doesn't cause any tooth sensitivity.",
+              "response_id": "resp_26",
+              "response_text": "This toothpaste whitens my teeth a little after 2 weeks of use. It's not too strong, so it doesn't cause any tooth sensitivity. Overall, it's a pretty good toothpaste."
             },
             {
-              "segment_id": "resp_86_0",
-              "segment_text": "This toothpaste has a great taste, very easy to use and easy to see the results.",
-              "response_id": "resp_86",
-              "response_text": "This toothpaste has a great taste, very easy to use and easy to see the results. My teeth felt shinier, I would say my teeth are pretty white and so I didn't see too much improvement in that area but my breath smelled a TON better than any of the other toothpastes I'd been using. This definitely would be my new go to!"
+              "segment_id": "resp_0_1",
+              "segment_text": "It taste great, it doesn't burn your tongue, and makes your teeth pearly white!",
+              "response_id": "resp_0",
+              "response_text": "You should definitely be buying and trying this toothpaste. It taste great, it doesn't burn your tongue, and makes your teeth pearly white! What are you waiting for buy it now!!"
             },
             {
-              "segment_id": "resp_78_4",
-              "segment_text": "Great product.",
-              "response_id": "resp_78",
-              "response_text": "This toothpaste is amazing! My teeth are noticeably whiter and brighter. After brushing, my teeth also feel smooth and clean. My fresh breath lasts longer too! Great product. Definitely recommend!"
+              "segment_id": "resp_18_1",
+              "segment_text": "I strongly dislike when the texture is gritty, but this kind has a nice, smooth consistency.",
+              "response_id": "resp_18",
+              "response_text": "Toothpaste has a refreshing feel with a good texture. I strongly dislike when the texture is gritty, but this kind has a nice, smooth consistency. I like that the color is pure white and does not have any color dyes in it."
             },
             {
-              "segment_id": "resp_34_3",
-              "segment_text": "I've really enjoyed using this product of toothpaste thank you.",
-              "response_id": "resp_34",
-              "response_text": "This toothpaste that I have been using for the last 2 weeks has been fantastic. My teeth are shiny more so now than before, and I felt so comfortable getting close with other people. My teeth have felt so clean and my mouth super clean. I've really enjoyed using this product of toothpaste thank you."
+              "segment_id": "resp_59_3",
+              "segment_text": "It helped my breath smell better",
+              "response_id": "resp_59",
+              "response_text": "This toothpaste is the best toothpaste I have ever used. It got my teeth whiter. It kept my whole mouth feeling cleaner. It helped my breath smell better"
             },
             {
-              "segment_id": "resp_91_0",
-              "segment_text": "This toothpaste gives you a nice white shiny appearance to your teeth",
-              "response_id": "resp_91",
-              "response_text": "This toothpaste gives you a nice white shiny appearance to your teeth"
+              "segment_id": "resp_32_1",
+              "segment_text": "It seemed to brighten up my teeth a bit more",
+              "response_id": "resp_32",
+              "response_text": "This toothpaste was excellent, it helped me feel and look more confident and comfortable when talking to people and smiling. It seemed to brighten up my teeth a bit more"
             },
             {
-              "segment_id": "resp_77_0",
-              "segment_text": "This toothpaste is as reliable as I thought it would be.",
-              "response_id": "resp_77",
-              "response_text": "This toothpaste is as reliable as I thought it would be. It tastes on par with how toothpaste shotsste, and the packaging is appealing. I found my teeth were glossy and clean every time."
+              "segment_id": "resp_32_0",
+              "segment_text": "This toothpaste was excellent, it helped me feel and look more confident and comfortable when talking to people and smiling.",
+              "response_id": "resp_32",
+              "response_text": "This toothpaste was excellent, it helped me feel and look more confident and comfortable when talking to people and smiling. It seemed to brighten up my teeth a bit more"
             }
           ]
         }

@@ -7,6 +7,7 @@ from __future__ import annotations
 import json
 import logging
 import argparse
+import os
 from dataclasses import asdict
 from pathlib import Path
 from typing import Any, Dict, List, Optional
@@ -130,9 +131,12 @@ class SurveyTopicPipeline:
             )
         else:  # default to gemini
             gemini_cfg = self.config.gemini
+            api_key = os.getenv("GOOGLE_API_KEY")
+            if not api_key:
+                raise ValueError("GOOGLE_API_KEY environment variable not set.")
             return GeminiLLMClient(
                 model_name=gemini_cfg.model_name,
-                api_key=gemini_cfg.api_key,
+                api_key=api_key,
                 temperature=gemini_cfg.temperature,
             )
 

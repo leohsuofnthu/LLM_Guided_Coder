@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic Hierarchy</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: #f5f5f5;
+            padding: 20px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+            padding: 30px;
+        }
+
+        h1 {
+            font-size: 24px;
+            font-weight: 600;
+            margin-bottom: 25px;
+            color: #1a1a1a;
+        }
+
+        .loading {
+            text-align: center;
+            padding: 40px;
+            color: #666;
+            font-size: 16px;
+        }
+
+        /* Hierarchy styles */
+        .hierarchy {
+            list-style: none;
+        }
+
+        .net-item, .subnet-item, .segment-item {
+            margin-bottom: 4px;
+        }
+
+        /* Net level (top level) */
+        .net-header {
+            display: flex;
+            align-items: center;
+            padding: 8px 12px;
+            cursor: pointer;
+            user-select: none;
+            border-radius: 4px;
+            transition: background 0.15s;
+        }
+
+        .net-header:hover {
+            background: #f8f8f8;
+        }
+
+        .net-header.expanded {
+            font-weight: 600;
+        }
+
+        /* Subnet level */
+        .subnet-header {
+            display: flex;
+            align-items: center;
+            padding: 6px 12px;
+            margin-left: 20px;
+            cursor: pointer;
+            user-select: none;
+            border-radius: 4px;
+            transition: background 0.15s;
+        }
+
+        .subnet-header:hover {
+            background: #f8f8f8;
+        }
+
+        /* Segment level */
+        .segment-item {
+            padding: 6px 12px;
+            margin-left: 40px;
+            color: #5a6c7d;
+            font-size: 14px;
+            line-height: 1.6;
+            border-left: 2px solid #e8e8e8;
+            margin-bottom: 8px;
+        }
+
+        .subnet-item .segment-item {
+            margin-left: 60px;
+        }
+
+        .segment-text {
+            display: block;
+            padding: 4px 0;
+        }
+
+        .segment-id {
+            font-size: 11px;
+            color: #999;
+            font-family: 'Courier New', monospace;
+            margin-top: 2px;
+            display: block;
+        }
+
+        /* Toggle arrow */
+        .toggle-arrow {
+            display: inline-block;
+            width: 0;
+            height: 0;
+            border-style: solid;
+            margin-right: 8px;
+            transition: transform 0.2s;
+        }
+
+        .toggle-arrow.right {
+            border-width: 5px 0 5px 8px;
+            border-color: transparent transparent transparent #666;
+        }
+
+        .toggle-arrow.down {
+            border-width: 8px 5px 0 5px;
+            border-color: #666 transparent transparent transparent;
+        }
+
+        /* Labels */
+        .net-label {
+            font-size: 15px;
+            color: #1a1a1a;
+            font-weight: 500;
+        }
+
+        .subnet-label {
+            font-size: 14px;
+            color: #2d3748;
+        }
+
+        .count-badge {
+            background: #e8e8e8;
+            color: #666;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 12px;
+            margin-left: 8px;
+            font-weight: normal;
+        }
+
+        /* Content containers */
+        .net-content, .subnet-content {
+            display: none;
+            overflow: hidden;
+        }
+
+        .net-content.expanded, .subnet-content.expanded {
+            display: block;
+        }
+
+        /* Empty state */
+        .empty-state {
+            padding: 20px;
+            text-align: center;
+            color: #999;
+        }
+
+        /* Search box */
+        .search-container {
+            margin-bottom: 20px;
+        }
+
+        .search-box {
+            width: 100%;
+            padding: 10px 15px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            font-size: 14px;
+            outline: none;
+            transition: border-color 0.2s;
+        }
+
+        .search-box:focus {
+            border-color: #4a90e2;
+        }
+
+        /* Stats */
+        .stats {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            font-size: 14px;
+            color: #666;
+        }
+
+        .stats strong {
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Topic Hierarchy</h1>
+        
+        <div class="search-container">
+            <input type="text" class="search-box" id="searchBox" placeholder="Search segments...">
+        </div>
+
+        <div class="stats" id="stats"></div>
+        
+        <div class="loading" id="loading">Loading hierarchy...</div>
+        
+        <ul class="hierarchy" id="hierarchy"></ul>
+    </div>
+
+    <script>
+        let hierarchyData = [];
+        let searchTerm = '';
+
+        // Load data on page load
+        async function loadHierarchy() {
+            try {
+                const response = await fetch('/api/hierarchy');
+                hierarchyData = await response.json();
+                renderHierarchy();
+                updateStats();
+                document.getElementById('loading').style.display = 'none';
+            } catch (error) {
+                console.error('Error loading hierarchy:', error);
+                document.getElementById('loading').textContent = 'Error loading data. Please try again.';
+            }
+        }
+
+        // Update statistics
+        function updateStats() {
+            const totalNets = hierarchyData.length;
+            const totalSubnets = hierarchyData.reduce((sum, net) => sum + net.subnets.length, 0);
+            const totalSegments = hierarchyData.reduce((sum, net) => sum + net.total_segments, 0);
+            
+            document.getElementById('stats').innerHTML = `
+                <strong>${totalNets}</strong> Nets &nbsp;|&nbsp; 
+                <strong>${totalSubnets}</strong> Subnets &nbsp;|&nbsp; 
+                <strong>${totalSegments}</strong> Segments
+            `;
+        }
+
+        // Filter segments based on search term
+        function matchesSearch(text) {
+            if (!searchTerm) return true;
+            return text.toLowerCase().includes(searchTerm.toLowerCase());
+        }
+
+        // Render the hierarchy
+        function renderHierarchy() {
+            const container = document.getElementById('hierarchy');
+            container.innerHTML = '';
+
+            if (hierarchyData.length === 0) {
+                container.innerHTML = '<div class="empty-state">No data available</div>';
+                return;
+            }
+
+            hierarchyData.forEach(net => {
+                const netItem = document.createElement('li');
+                netItem.className = 'net-item';
+                
+                // Net header
+                const netHeader = document.createElement('div');
+                netHeader.className = 'net-header';
+                netHeader.innerHTML = `
+                    <span class="toggle-arrow right"></span>
+                    <span class="net-label">${escapeHtml(net.net_name)}</span>
+                    <span class="count-badge">${net.total_segments}</span>
+                `;
+                
+                const netContent = document.createElement('div');
+                netContent.className = 'net-content';
+
+                // Add subnets
+                net.subnets.forEach(subnet => {
+                    const subnetItem = document.createElement('div');
+                    subnetItem.className = 'subnet-item';
+                    
+                    const subnetHeader = document.createElement('div');
+                    subnetHeader.className = 'subnet-header';
+                    subnetHeader.innerHTML = `
+                        <span class="toggle-arrow right"></span>
+                        <span class="subnet-label">${escapeHtml(subnet.subnet_name)}</span>
+                        <span class="count-badge">${subnet.segment_count}</span>
+                    `;
+                    
+                    const subnetContent = document.createElement('div');
+                    subnetContent.className = 'subnet-content';
+                    
+                    // Add segments to subnet
+                    subnet.segments.forEach(segment => {
+                        if (matchesSearch(segment.text)) {
+                            const segmentItem = document.createElement('div');
+                            segmentItem.className = 'segment-item';
+                            segmentItem.innerHTML = `
+                                <span class="segment-text">${escapeHtml(segment.text)}</span>
+                                <span class="segment-id">${escapeHtml(segment.segment_id)}</span>
+                            `;
+                            subnetContent.appendChild(segmentItem);
+                        }
+                    });
+                    
+                    // Toggle subnet
+                    subnetHeader.addEventListener('click', () => toggleSubnet(subnetHeader, subnetContent));
+                    
+                    subnetItem.appendChild(subnetHeader);
+                    subnetItem.appendChild(subnetContent);
+                    netContent.appendChild(subnetItem);
+                });
+
+                // Add direct segments (those without subnet)
+                net.direct_segments.forEach(segment => {
+                    if (matchesSearch(segment.text)) {
+                        const segmentItem = document.createElement('div');
+                        segmentItem.className = 'segment-item';
+                        segmentItem.innerHTML = `
+                            <span class="segment-text">${escapeHtml(segment.text)}</span>
+                            <span class="segment-id">${escapeHtml(segment.segment_id)}</span>
+                        `;
+                        netContent.appendChild(segmentItem);
+                    }
+                });
+
+                // Toggle net
+                netHeader.addEventListener('click', () => toggleNet(netHeader, netContent));
+                
+                netItem.appendChild(netHeader);
+                netItem.appendChild(netContent);
+                container.appendChild(netItem);
+            });
+        }
+
+        // Toggle net expansion
+        function toggleNet(header, content) {
+            const arrow = header.querySelector('.toggle-arrow');
+            const isExpanded = content.classList.contains('expanded');
+            
+            if (isExpanded) {
+                content.classList.remove('expanded');
+                arrow.className = 'toggle-arrow right';
+                header.classList.remove('expanded');
+            } else {
+                content.classList.add('expanded');
+                arrow.className = 'toggle-arrow down';
+                header.classList.add('expanded');
+            }
+        }
+
+        // Toggle subnet expansion
+        function toggleSubnet(header, content) {
+            const arrow = header.querySelector('.toggle-arrow');
+            const isExpanded = content.classList.contains('expanded');
+            
+            if (isExpanded) {
+                content.classList.remove('expanded');
+                arrow.className = 'toggle-arrow right';
+            } else {
+                content.classList.add('expanded');
+                arrow.className = 'toggle-arrow down';
+            }
+        }
+
+        // Escape HTML to prevent XSS
+        function escapeHtml(text) {
+            const div = document.createElement('div');
+            div.textContent = text;
+            return div.innerHTML;
+        }
+
+        // Search functionality
+        document.getElementById('searchBox').addEventListener('input', (e) => {
+            searchTerm = e.target.value;
+            renderHierarchy();
+        });
+
+        // Initialize
+        loadHierarchy();
+    </script>
+</body>
+</html>
+
