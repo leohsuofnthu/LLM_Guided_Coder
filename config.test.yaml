@@ -1,0 +1,49 @@
+segmenter:
+  strategy: pysbd
+  text_column: Responses
+  max_segments_per_response: 6
+  pysbd_language: en
+
+embedder:
+  model_name: intfloat/e5-small-v2
+  batch_size: 512
+  normalize: true
+
+labeler:
+  max_examples_per_cluster: 40
+  max_words: 5
+  system_prompt: >
+    You are a market research analyst. Summarize the theme of the provided survey segments.
+
+coder:
+  include_examples: true
+  output_path: data/coded_responses.json
+
+gemini:
+  model_name: gemini-2.5-flash
+  api_key_env: GOOGLE_API_KEY
+  temperature: 0.0
+
+storage:
+  base_dir: data
+
+discovery:
+  enabled: true
+  max_iterations: 2
+  assignment_threshold: 0.4
+  max_bootstrap_nets: 8
+  bootstrap_rounds: 1
+  bootstrap_seeds_per_net: 5
+  refresh_sample_size: 100
+  min_net_size: 15
+  merge_similarity_threshold: 0.85
+  unknown_label: Unknown
+  max_unknown_clusters: 5
+  improvement_tol: 0.01
+  max_llm_calls: 50
+  deterministic: true
+  duplicate_similarity_threshold: 0.85
+  dedupe_enabled: true
+  subnet:
+    enabled: false
+

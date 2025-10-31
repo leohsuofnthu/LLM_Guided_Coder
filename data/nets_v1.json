@@ -1,0 +1,295 @@
+{
+  "llm_identifier": "gemini-2.0-flash-lite",
+  "nets": [
+    {
+      "id": "net_1",
+      "label": "Taste And Flavor",
+      "seeds": [
+        "Great taste and refreshing",
+        "Nice minty flavor",
+        "Refreshing and clean taste",
+        "Long lasting fresh flavor",
+        "Good flavor and texture",
+        "Refreshing and minty",
+        "Easy to use, great taste"
+      ],
+      "status": "active",
+      "metrics": {
+        "member_count": 23,
+        "coverage": 0.09829059829059829,
+        "last_sampled_segments": [
+          "resp_0_1",
+          "resp_1_0",
+          "resp_9_0",
+          "resp_10_0",
+          "resp_13_0",
+          "resp_18_0",
+          "resp_23_1",
+          "resp_24_1",
+          "resp_28_2",
+          "resp_29_0"
+        ],
+        "stability_hits": 2,
+        "prototype_similarity": 0.9757820963859558,
+        "seed_shift": 0.0709710568189621,
+        "seed_shift_fraction": 0.0,
+        "last_label_similarity": 0.8869390487670898,
+        "last_refresh_delta": 0.907960520549254,
+        "mean_confidence": 0.907960520549254,
+        "frozen": false
+      },
+      "parent": null,
+      "member_count": 23,
+      "iteration": 1
+    },
+    {
+      "id": "net_4",
+      "label": "Breath Freshness",
+      "seeds": [
+        "good breath",
+        "breath smell amazing",
+        "fresh breath",
+        "long lasting breath",
+        "clean breath",
+        "fresh feeling",
+        "breath is fresh"
+      ],
+      "status": "active",
+      "metrics": {
+        "member_count": 10,
+        "coverage": 0.042735042735042736
+      },
+      "parent": null,
+      "member_count": 10,
+      "iteration": 0
+    },
+    {
+      "id": "net_6",
+      "label": "Product Recommendation",
+      "seeds": [
+        "recommend this",
+        "would buy more",
+        "recommend to family",
+        "highly recommend",
+        "would buy again",
+        "suggest this",
+        "recommend to friends"
+      ],
+      "status": "active",
+      "metrics": {
+        "member_count": 18,
+        "coverage": 0.07692307692307693
+      },
+      "parent": null,
+      "member_count": 18,
+      "iteration": 0
+    },
+    {
+      "id": "net_7",
+      "label": "Appearance And Aesthetics",
+      "seeds": [
+        "look pretty",
+        "attractive packaging",
+        "nice design",
+        "appealing look",
+        "visually appealing",
+        "stylish packaging",
+        "good presentation"
+      ],
+      "status": "active",
+      "metrics": {
+        "member_count": 1,
+        "coverage": 0.004273504273504274
+      },
+      "parent": null,
+      "member_count": 1,
+      "iteration": 0
+    },
+    {
+      "id": "net_8",
+      "label": "Duration Of Effect",
+      "seeds": [
+        "lasts after use",
+        "see results",
+        "long lasting effect",
+        "lasting freshness",
+        "results in days",
+        "effect is noticeable",
+        "long term benefits"
+      ],
+      "status": "active",
+      "metrics": {
+        "member_count": 6,
+        "coverage": 0.02564102564102564
+      },
+      "parent": null,
+      "member_count": 6,
+      "iteration": 0
+    },
+    {
+      "id": "net_9",
+      "label": "Areas For Improvement",
+      "seeds": [
+        "did not see much",
+        "not a fan",
+        "could be better",
+        "needs improvement",
+        "not perfect",
+        "room for improvement",
+        "could be stronger"
+      ],
+      "status": "active",
+      "metrics": {
+        "member_count": 5,
+        "coverage": 0.021367521367521368
+      },
+      "parent": null,
+      "member_count": 5,
+      "iteration": 0
+    },
+    {
+      "id": "net_0_split_1",
+      "label": "Toothpaste Effects",
+      "seeds": [
+        "Leaves teeth feeling clean",
+        "Makes teeth look brighter",
+        "Whitens teeth",
+        "Leaves mouth feeling fresh",
+        "Makes teeth shiny",
+        "Improves teeth appearance",
+        "Effective cleaning action"
+      ],
+      "status": "active",
+      "metrics": {
+        "member_count": 38,
+        "coverage": 0.1623931623931624,
+        "last_sampled_segments": [
+          "resp_0_0",
+          "resp_0_1",
+          "resp_5_0",
+          "resp_6_0",
+          "resp_6_2",
+          "resp_7_0",
+          "resp_8_0",
+          "resp_12_1",
+          "resp_12_2",
+          "resp_15_0"
+        ],
+        "stability_hits": 2,
+        "prototype_similarity": 0.9488838315010071,
+        "seed_shift": 0.08740150928497314,
+        "seed_shift_fraction": 0.0,
+        "last_label_similarity": 0.8862226009368896,
+        "last_refresh_delta": 0.8982864349496131,
+        "mean_confidence": 0.8982864349496131,
+        "frozen": false
+      },
+      "parent": null,
+      "member_count": 38,
+      "iteration": 1
+    },
+    {
+      "id": "net_2_split_1",
+      "label": "Improved Whitening",
+      "seeds": [
+        "My teeth feel and look shiny and seem whiter!!",
+        "My teeth do look at least a shade or so whiter.",
+        "My teeth are noticeably whiter and brighter.",
+        "And over the last 2 weeks my teeth have gotten brighter.",
+        "My teeth are whiter than ever."
+      ],
+      "status": "active",
+      "metrics": {
+        "member_count": 43,
+        "coverage": 0.18376068376068377
+      },
+      "parent": null,
+      "member_count": 43,
+      "iteration": 0
+    },
+    {
+      "id": "net_3_split_0",
+      "label": "Positive Experience",
+      "seeds": [
+        "This toothpaste is great.",
+        "This toothpaste is phenomenal.",
+        "This toothpaste is amazing!",
+        "Good product overall!",
+        "This toothpaste is the best toothpaste I have ever used."
+      ],
+      "status": "active",
+      "metrics": {
+        "member_count": 90,
+        "coverage": 0.38461538461538464
+      },
+      "parent": null,
+      "member_count": 90,
+      "iteration": 0
+    },
+    {
+      "id": "net_0",
+      "label": "Positive Toothpaste Experience",
+      "seeds": [
+        "Refreshing and clean feeling",
+        "Leaves teeth shiny and white",
+        "Great taste and easy to use",
+        "Provides a long-lasting fresh breath",
+        "Excellent product overall",
+        "Makes teeth feel squeaky clean",
+        "Would purchase this toothpaste"
+      ],
+      "status": "active",
+      "metrics": {
+        "member_count": 36,
+        "coverage": 1.0,
+        "last_sampled_segments": [
+          "resp_0_0",
+          "resp_6_0",
+          "resp_7_0",
+          "resp_12_1",
+          "resp_16_3",
+          "resp_29_0",
+          "resp_30_0",
+          "resp_31_0",
+          "resp_32_0",
+          "resp_34_3"
+        ],
+        "stability_hits": 3,
+        "prototype_similarity": 1.0000001192092896,
+        "seed_shift": 0.08361790329217911,
+        "seed_shift_fraction": 0.0,
+        "last_label_similarity": 1.0,
+        "last_refresh_delta": 0.0,
+        "mean_confidence": 0.904078432255321,
+        "frozen": false,
+        "parent_similarity": 0.9477413296699524
+      },
+      "parent": "net_3_split_0",
+      "member_count": 36,
+      "iteration": 2
+    }
+  ],
+  "history": [
+    {
+      "iteration": 1,
+      "coverage": 1.0,
+      "unknown_count": 0,
+      "mean_confidence": 0.5363408327102661,
+      "notes": "metrics={'coverage': 1.0, 'mean_confidence': 0.5363408327102661, 'mean_margin': 0.017109615728259087, 'active_nets': 10.0, 'silhouette': 0.04692332074046135}"
+    },
+    {
+      "iteration": 2,
+      "coverage": 1.0,
+      "unknown_count": 0,
+      "mean_confidence": 0.5507692098617554,
+      "notes": "metrics={'coverage': 1.0, 'mean_confidence': 0.5507692098617554, 'mean_margin': 0.018900679424405098, 'active_nets': 9.0, 'silhouette': 0.10006130486726761}"
+    },
+    {
+      "iteration": 3,
+      "coverage": 1.0,
+      "unknown_count": 0,
+      "mean_confidence": 0.5580801963806152,
+      "notes": "metrics={'coverage': 1.0, 'mean_confidence': 0.5580801963806152, 'mean_margin': 0.018534807488322258, 'active_nets': 9.0, 'silhouette': 0.08973255008459091}"
+    }
+  ]
+}

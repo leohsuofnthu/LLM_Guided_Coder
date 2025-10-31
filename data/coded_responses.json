@@ -1,0 +1,2374 @@
+[
+  {
+    "response_id": "resp_0",
+    "segments": [
+      {
+        "segment_id": "resp_0_0",
+        "text": "You should definitely be buying and trying this toothpaste.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      },
+      {
+        "segment_id": "resp_0_1",
+        "text": "It taste great, it doesn't burn your tongue, and makes your teeth pearly white!",
+        "net_id": "net_1",
+        "net": "Taste And Flavor",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_0_2",
+        "text": "What are you waiting for buy it now!!",
+        "net_id": "net_6",
+        "net": "Product Recommendation",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_1",
+    "segments": [
+      {
+        "segment_id": "resp_1_0",
+        "text": "Works pretty good wasn't a fan of the flavor.",
+        "net_id": "net_9",
+        "net": "Areas For Improvement",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_10",
+    "segments": [
+      {
+        "segment_id": "resp_10_0",
+        "text": "Very refreshing and clean taste.",
+        "net_id": "net_1",
+        "net": "Taste And Flavor",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_10_1",
+        "text": "Leaves my teeth smoother and shiny.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_10_2",
+        "text": "I like the texture, it feels like it's really cleaning",
+        "net_id": "net_1",
+        "net": "Taste And Flavor",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_11",
+    "segments": [
+      {
+        "segment_id": "resp_11_0",
+        "text": "Very good taste, good whitning and cleaning",
+        "net_id": "net_1",
+        "net": "Taste And Flavor",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_12",
+    "segments": [
+      {
+        "segment_id": "resp_12_0",
+        "text": "Very good product.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_12_1",
+        "text": "If I am being honest about this toothpaste I would have to say if leaves you with that after dentist feel.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      },
+      {
+        "segment_id": "resp_12_2",
+        "text": "I love how it works from leaving my mouth feeling fresh to the whitening affect.",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_12_3",
+        "text": "This product gets the job done",
+        "net_id": "net_6",
+        "net": "Product Recommendation",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_13",
+    "segments": [
+      {
+        "segment_id": "resp_13_0",
+        "text": "Very good flavor, really like this mint flavor.",
+        "net_id": "net_1",
+        "net": "Taste And Flavor",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_13_1",
+        "text": "It leaves your breath feeling very fresh.",
+        "net_id": "net_4",
+        "net": "Breath Freshness",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_14",
+    "segments": [
+      {
+        "segment_id": "resp_14_0",
+        "text": "Very good ,teeth are clean white breath stays freash",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_15",
+    "segments": [
+      {
+        "segment_id": "resp_15_0",
+        "text": "Toothpaste makes your teeth shiny on day one, it will help whiten your teeth progressively.",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_16",
+    "segments": [
+      {
+        "segment_id": "resp_16_0",
+        "text": "Toothpaste left teeth feeling clean and looking brighter!",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_16_1",
+        "text": "As a whitener, it wasn't as effective as I expected.",
+        "net_id": "net_9",
+        "net": "Areas For Improvement",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_16_2",
+        "text": "My teeth do look at least a shade or so whiter.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_16_3",
+        "text": "Good product overall!",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_17",
+    "segments": [
+      {
+        "segment_id": "resp_17_0",
+        "text": "Toothpaste is great.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_17_1",
+        "text": "After a few days you will see results.",
+        "net_id": "net_8",
+        "net": "Duration Of Effect",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_17_2",
+        "text": "My teeth have never been whiter!",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_18",
+    "segments": [
+      {
+        "segment_id": "resp_18_0",
+        "text": "Toothpaste has a refreshing feel with a good texture.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_18_1",
+        "text": "I strongly dislike when the texture is gritty, but this kind has a nice, smooth consistency.",
+        "net_id": "net_1",
+        "net": "Taste And Flavor",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_18_2",
+        "text": "I like that the color is pure white and does not have any color dyes in it.",
+        "net_id": "net_1",
+        "net": "Taste And Flavor",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_19",
+    "segments": [
+      {
+        "segment_id": "resp_19_0",
+        "text": "Toothpaste came in a plain white no design so kinda bleh didn't know how to feel about it but over all it worked great teeth fee fresh and cleaner",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_2",
+    "segments": [
+      {
+        "segment_id": "resp_2_0",
+        "text": "Worked great.",
+        "net_id": "net_8",
+        "net": "Duration Of Effect",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_2_1",
+        "text": "Cleaned my teeth much better.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_2_2",
+        "text": "Clean and fresh",
+        "net_id": "net_1",
+        "net": "Taste And Flavor",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_20",
+    "segments": [
+      {
+        "segment_id": "resp_20_0",
+        "text": "Tooth paste was very refreshing .",
+        "net_id": "net_1",
+        "net": "Taste And Flavor",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_20_1",
+        "text": "Made my teeth feel clean.",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_21",
+    "segments": [
+      {
+        "segment_id": "resp_21_0",
+        "text": "Tooth paste was great, is very minty almost too much where it numbs your mouth but leave fresh breath and clean teeth!",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_22",
+    "segments": [
+      {
+        "segment_id": "resp_22_0",
+        "text": "This whitening toothpaste is effective.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_22_1",
+        "text": "It probably won't match specialized whitening treatments but in terms of value for money it beats a lot of them.",
+        "net_id": "net_8",
+        "net": "Duration Of Effect",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_22_2",
+        "text": "It's gentle, refreshing and it realty works",
+        "net_id": "net_1",
+        "net": "Taste And Flavor",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_23",
+    "segments": [
+      {
+        "segment_id": "resp_23_0",
+        "text": "This whitening fluoride toothpaste leaves my teeth feeling clean and fresh without sensitivity.",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_23_1",
+        "text": "The whitening is subtle but noticeable, and the flavor is nice.",
+        "net_id": "net_1",
+        "net": "Taste And Flavor",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_23_2",
+        "text": "Definitely a solid choice!",
+        "net_id": "net_6",
+        "net": "Product Recommendation",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_24",
+    "segments": [
+      {
+        "segment_id": "resp_24_0",
+        "text": "This toothpaste works great to brighten your teeth, making them whiter and shiny.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_24_1",
+        "text": "Nice long lasting flavor that keeps your breath fresh.",
+        "net_id": "net_1",
+        "net": "Taste And Flavor",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_24_2",
+        "text": "I highly recommend you try it.",
+        "net_id": "net_6",
+        "net": "Product Recommendation",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_25",
+    "segments": [
+      {
+        "segment_id": "resp_25_0",
+        "text": "This toothpaste will not disappoint with its effective ingredients which keep your teeth feeling smooth and white.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_26",
+    "segments": [
+      {
+        "segment_id": "resp_26_0",
+        "text": "This toothpaste whitens my teeth a little after 2 weeks of use.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_26_1",
+        "text": "It's not too strong, so it doesn't cause any tooth sensitivity.",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_26_2",
+        "text": "Overall, it's a pretty good toothpaste.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_27",
+    "segments": [
+      {
+        "segment_id": "resp_27_0",
+        "text": "This toothpaste whitens and brightens your teeth while leaving a clean, smooth feel",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_28",
+    "segments": [
+      {
+        "segment_id": "resp_28_0",
+        "text": "This toothpaste whiten my teeth at least a shade or two.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_28_1",
+        "text": "It leaves your teeth feeling smooth after every use.",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_28_2",
+        "text": "The taste is great.",
+        "net_id": "net_1",
+        "net": "Taste And Flavor",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_28_3",
+        "text": "Also I would definitely recommend this to my family and friends.",
+        "net_id": "net_6",
+        "net": "Product Recommendation",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_29",
+    "segments": [
+      {
+        "segment_id": "resp_29_0",
+        "text": "This toothpaste was very refreshing and it left a minty taste in your mouth for sometime.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      },
+      {
+        "segment_id": "resp_29_1",
+        "text": "It made your teeth smooth, and I found personally that I didn't have as much tar as I usually do.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_29_2",
+        "text": "Also, it did whiten my teeth up just to touch.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_3",
+    "segments": [
+      {
+        "segment_id": "resp_3_0",
+        "text": "wonderfully tasting wonderfully working cleaning , whitening works great",
+        "net_id": "net_1",
+        "net": "Taste And Flavor",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_30",
+    "segments": [
+      {
+        "segment_id": "resp_30_0",
+        "text": "This toothpaste was very much to my liking.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      },
+      {
+        "segment_id": "resp_30_1",
+        "text": "It had a nice minty taste that was not overpowering.",
+        "net_id": "net_1",
+        "net": "Taste And Flavor",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_30_2",
+        "text": "It left my teeth feeling smooth and clean.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_30_3",
+        "text": "It also left a nice shine after brushing.",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_30_4",
+        "text": "I would definitely buy and recommend it to others.",
+        "net_id": "net_6",
+        "net": "Product Recommendation",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_31",
+    "segments": [
+      {
+        "segment_id": "resp_31_0",
+        "text": "This toothpaste was just like all the name brand tooth pastes.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      },
+      {
+        "segment_id": "resp_31_1",
+        "text": "It left me feeling clean and with good breath but it was not anything special.",
+        "net_id": "net_4",
+        "net": "Breath Freshness",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_31_2",
+        "text": "Did not see much whiting and did not help with sensitivity.",
+        "net_id": "net_9",
+        "net": "Areas For Improvement",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_32",
+    "segments": [
+      {
+        "segment_id": "resp_32_0",
+        "text": "This toothpaste was excellent, it helped me feel and look more confident and comfortable when talking to people and smiling.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      },
+      {
+        "segment_id": "resp_32_1",
+        "text": "It seemed to brighten up my teeth a bit more",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_33",
+    "segments": [
+      {
+        "segment_id": "resp_33_0",
+        "text": "This toothpaste was better than expected, it made my teeth look brighter and my mouth feeling fresh.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_33_1",
+        "text": "I recommend it to everyone.",
+        "net_id": "net_6",
+        "net": "Product Recommendation",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_33_2",
+        "text": "A must try.",
+        "net_id": "net_6",
+        "net": "Product Recommendation",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_34",
+    "segments": [
+      {
+        "segment_id": "resp_34_0",
+        "text": "This toothpaste that I have been using for the last 2 weeks has been fantastic.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_34_1",
+        "text": "My teeth are shiny more so now than before, and I felt so comfortable getting close with other people.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_34_2",
+        "text": "My teeth have felt so clean and my mouth super clean.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_34_3",
+        "text": "I've really enjoyed using this product of toothpaste thank you.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_35",
+    "segments": [
+      {
+        "segment_id": "resp_35_0",
+        "text": "This toothpaste tastes great it, freshenings the breath and leaves you with a whiter smile.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_36",
+    "segments": [
+      {
+        "segment_id": "resp_36_0",
+        "text": "This toothpaste refresh my breath and my teeth are more whiter.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_37",
+    "segments": [
+      {
+        "segment_id": "resp_37_0",
+        "text": "This toothpaste really brought out my smile.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_37_1",
+        "text": "I have used whitening toothpastes before but this one made my teeth look whiter and shiner!",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_38",
+    "segments": [
+      {
+        "segment_id": "resp_38_0",
+        "text": "This toothpaste provides the elements you want, fresh taste, whitening, clean feeling in an easy to squeeze tube.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_39",
+    "segments": [
+      {
+        "segment_id": "resp_39_0",
+        "text": "This toothpaste not only brightens and whitens your teeth, but it has a good flavor.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_39_1",
+        "text": "Highly recommend as it doesn't hurt your teeth.",
+        "net_id": "net_6",
+        "net": "Product Recommendation",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_4",
+    "segments": [
+      {
+        "segment_id": "resp_4_0",
+        "text": "Whitening, thick, cleans teeth.",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_40",
+    "segments": [
+      {
+        "segment_id": "resp_40_0",
+        "text": "This toothpaste makes your teeth visibly shinier with just one use!",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      },
+      {
+        "segment_id": "resp_40_1",
+        "text": "Multiple uses make teeth visibly whiter, and teeth feel extremely smooth and clean after every single use.",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_41",
+    "segments": [
+      {
+        "segment_id": "resp_41_0",
+        "text": "This toothpaste makes your teeth feel super clean and shiny.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_42",
+    "segments": [
+      {
+        "segment_id": "resp_42_0",
+        "text": "This toothpaste makes my teeth squeaky clean and polished feeling.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      },
+      {
+        "segment_id": "resp_42_1",
+        "text": "It isn't too harsh and leaves my breath minty all day long.",
+        "net_id": "net_4",
+        "net": "Breath Freshness",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_42_2",
+        "text": "I love how it feels and the taste is good as well.",
+        "net_id": "net_1",
+        "net": "Taste And Flavor",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_43",
+    "segments": [
+      {
+        "segment_id": "resp_43_0",
+        "text": "this toothpaste makes my mouth feel so clean all day and my smile so white!",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_44",
+    "segments": [
+      {
+        "segment_id": "resp_44_0",
+        "text": "This toothpaste makes my mouth feel clean and makes my teeth shiny and look white.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_45",
+    "segments": [
+      {
+        "segment_id": "resp_45_0",
+        "text": "This toothpaste made my teeth, feel clean and also whiten them, which is very hard to do with other toothpaste because I enjoy coffee, red wine, and that has stained my teeth over the years.",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_45_1",
+        "text": "I am very happy with this toothpaste.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_46",
+    "segments": [
+      {
+        "segment_id": "resp_46_0",
+        "text": "This toothpaste made my teeth feel cleaner and brighter",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_47",
+    "segments": [
+      {
+        "segment_id": "resp_47_0",
+        "text": "This toothpaste made my mouth feel so much cleaner and healthier!",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_47_1",
+        "text": "I loved that my teeth were cleaner for a longer period of time.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_47_2",
+        "text": "Using this toothpaste made a big difference for me",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_48",
+    "segments": [
+      {
+        "segment_id": "resp_48_0",
+        "text": "This toothpaste made my mouth and teeth feel nice and fresh.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_48_1",
+        "text": "I like how my teeth was nice and clean and refreshing.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_49",
+    "segments": [
+      {
+        "segment_id": "resp_49_0",
+        "text": "This toothpaste left my teeth feeling more clean than ever before.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_49_1",
+        "text": "I was able to run my tongue over my teeth and feel nothing but smooth surface.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_49_2",
+        "text": "My teeth are now even brighter and shinier after using this toothpaste, and I'd highly recommend it to everyone!",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_5",
+    "segments": [
+      {
+        "segment_id": "resp_5_0",
+        "text": "White teeth and a beautiful smile, this tooth paste is for you Without much effort, you'll refresh your smile 5 stars , indeed",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_50",
+    "segments": [
+      {
+        "segment_id": "resp_50_0",
+        "text": "This toothpaste left my teeth feeling and looking so clean and my breath smelling fresh.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_50_1",
+        "text": "My teeth felt smooth and looked more white than they were before.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_50_2",
+        "text": "The tastes isn't too strong either.",
+        "net_id": "net_9",
+        "net": "Areas For Improvement",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_51",
+    "segments": [
+      {
+        "segment_id": "resp_51_0",
+        "text": "This toothpaste left my mouth feeling refreshed.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_51_1",
+        "text": "After just a few days, I noticed my teeth getting whiter and brighter.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_51_2",
+        "text": "Highly recommend.",
+        "net_id": "net_6",
+        "net": "Product Recommendation",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_52",
+    "segments": [
+      {
+        "segment_id": "resp_52_0",
+        "text": "This toothpaste left my mouth feeling clean for multiple hours after brushing.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_52_1",
+        "text": "The refreshing mint was an added plus that felt like it kept my mouth smelling fresh for longer than my normal toothpaste.",
+        "net_id": "net_1",
+        "net": "Taste And Flavor",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_53",
+    "segments": [
+      {
+        "segment_id": "resp_53_0",
+        "text": "This toothpaste leaves your mouth feeling fresh and teeth feeling clean.",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_54",
+    "segments": [
+      {
+        "segment_id": "resp_54_0",
+        "text": "This toothpaste leaves my mouth feeling clean and my teeth shiny unlike some of the other toothpaste I have used",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_55",
+    "segments": [
+      {
+        "segment_id": "resp_55_0",
+        "text": "This toothpaste lasts a long time.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      },
+      {
+        "segment_id": "resp_55_1",
+        "text": "It makes myouth feel clean and fresh.",
+        "net_id": "net_1",
+        "net": "Taste And Flavor",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_55_2",
+        "text": "Foams nicely, just the right flavor and my teeth feel smooth and clean.",
+        "net_id": "net_1",
+        "net": "Taste And Flavor",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_56",
+    "segments": [
+      {
+        "segment_id": "resp_56_0",
+        "text": "This toothpaste is very refreshing and effective.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_56_1",
+        "text": "Left my teeth feeling smooth and clean",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_57",
+    "segments": [
+      {
+        "segment_id": "resp_57_0",
+        "text": "This toothpaste is very minty and leaves your teeth feeling clean.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_57_1",
+        "text": "It freshens your breath and makes your teeth shiny, if used everyday it starts to move your teeth to a more white shade as you use it.",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_58",
+    "segments": [
+      {
+        "segment_id": "resp_58_0",
+        "text": "This toothpaste is truly amazing, have not used a toothpaste in a long time that leaves your month feeling refreshed and silky clean.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      },
+      {
+        "segment_id": "resp_58_1",
+        "text": "This toothpaste does not taste bad and the fresh breath experience lasts throughout the day.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      },
+      {
+        "segment_id": "resp_58_2",
+        "text": "Looking forward to knowing the name of the toothpaste so I can purchase it in the future.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_59",
+    "segments": [
+      {
+        "segment_id": "resp_59_0",
+        "text": "This toothpaste is the best toothpaste I have ever used.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_59_1",
+        "text": "It got my teeth whiter.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_59_2",
+        "text": "It kept my whole mouth feeling cleaner.",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_59_3",
+        "text": "It helped my breath smell better",
+        "net_id": "net_4",
+        "net": "Breath Freshness",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_6",
+    "segments": [
+      {
+        "segment_id": "resp_6_0",
+        "text": "What I liked about the toothpaste was the feeling on my teeth after.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      },
+      {
+        "segment_id": "resp_6_1",
+        "text": "They felt really clean and my breath was fresh.",
+        "net_id": "net_4",
+        "net": "Breath Freshness",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_6_2",
+        "text": "Also after using it I could tell a huge difference in the whiteness of my teeth.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_60",
+    "segments": [
+      {
+        "segment_id": "resp_60_0",
+        "text": "this toothpaste is rather good.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_60_1",
+        "text": "i saw differences in my teeth within a matter of days.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_60_2",
+        "text": "not only does it smell good but it left my teeth brighter.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_61",
+    "segments": [
+      {
+        "segment_id": "resp_61_0",
+        "text": "This toothpaste is phenomenal.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_61_1",
+        "text": "The quality of freshness mixed with the icy taste makes it a win win all the way around.",
+        "net_id": "net_1",
+        "net": "Taste And Flavor",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_61_2",
+        "text": "10 out of 10",
+        "net_id": "net_9",
+        "net": "Areas For Improvement",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_62",
+    "segments": [
+      {
+        "segment_id": "resp_62_0",
+        "text": "This toothpaste is minty and effective .",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_62_1",
+        "text": "Leaves your teeth feeling clean and shiny",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_63",
+    "segments": [
+      {
+        "segment_id": "resp_63_0",
+        "text": "This toothpaste is just okay.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      },
+      {
+        "segment_id": "resp_63_1",
+        "text": "I didn't notice my teeth becoming whiter.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_63_2",
+        "text": "It does have a fresh, minty taste though.",
+        "net_id": "net_1",
+        "net": "Taste And Flavor",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_64",
+    "segments": [
+      {
+        "segment_id": "resp_64_0",
+        "text": "This toothpaste is incredibly good I would purchase this",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_65",
+    "segments": [
+      {
+        "segment_id": "resp_65_0",
+        "text": "This toothpaste is great.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      },
+      {
+        "segment_id": "resp_65_1",
+        "text": "It's whitening my teeth and makes my mouth feel fresh for hours.",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_65_2",
+        "text": "The toothpaste foams up really good and a little goes a long way.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_66",
+    "segments": [
+      {
+        "segment_id": "resp_66_0",
+        "text": "This toothpaste is great.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_66_1",
+        "text": "It leaves your teeth very clean, and it has a fresh feeling at last for a couple of hours",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_67",
+    "segments": [
+      {
+        "segment_id": "resp_67_0",
+        "text": "This toothpaste is great.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_67_1",
+        "text": "I love how it makes your teeth feel bright and clean.",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_68",
+    "segments": [
+      {
+        "segment_id": "resp_68_0",
+        "text": "This toothpaste is great!",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_68_1",
+        "text": "It leaves my mouth and teeth feeling fresh and clean.",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_68_2",
+        "text": "It successfully rids me of morning breath and gives me confidence for the rest of the day.",
+        "net_id": "net_4",
+        "net": "Breath Freshness",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_68_3",
+        "text": "My teeth are left shiny and plaque-free after using this toothpaste",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_69",
+    "segments": [
+      {
+        "segment_id": "resp_69_0",
+        "text": "This toothpaste is great!",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_69_1",
+        "text": "It definitely seems like it is helping to whiten my teeth.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_69_2",
+        "text": "They look much whiter to me and some of the old staining doesn't seem as drastic.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_69_3",
+        "text": "It leaves your breath smelling minty fresh.",
+        "net_id": "net_4",
+        "net": "Breath Freshness",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_7",
+    "segments": [
+      {
+        "segment_id": "resp_7_0",
+        "text": "Well this toothpaste that I tested and to give my feedback on has been very refreshing it leaves your mouth very fresh makes you feel very clean something that a lot of toothpaste is can't relate to",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_70",
+    "segments": [
+      {
+        "segment_id": "resp_70_0",
+        "text": "This toothpaste is great quality, it makes my mouth fresh and my teeth squeaky clean.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_71",
+    "segments": [
+      {
+        "segment_id": "resp_71_0",
+        "text": "This toothpaste is great my teeth are much brighter than prior use and my mouth constantly feels clean throughout the day!",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_72",
+    "segments": [
+      {
+        "segment_id": "resp_72_0",
+        "text": "This toothpaste is great it really improved my teeth making it shiny and bright",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_73",
+    "segments": [
+      {
+        "segment_id": "resp_73_0",
+        "text": "This toothpaste is fabolous will leave your teeth feeling clean and fresh.",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_73_1",
+        "text": "Your breath will smell amazing.",
+        "net_id": "net_4",
+        "net": "Breath Freshness",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_74",
+    "segments": [
+      {
+        "segment_id": "resp_74_0",
+        "text": "This toothpaste is effective, covers my teeth well and leaves my teeth and breath feeling fresh all day",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_75",
+    "segments": [
+      {
+        "segment_id": "resp_75_0",
+        "text": "This toothpaste is basic, don't spend more than $5 on this tube.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      },
+      {
+        "segment_id": "resp_75_1",
+        "text": "It leaves a decent taste in your mouth for a SHORT time, cleans the teeth, but does not whiten.",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_75_2",
+        "text": "Nu mid-morning, you're wishing you had your toothbrush with you.",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_76",
+    "segments": [
+      {
+        "segment_id": "resp_76_0",
+        "text": "This toothpaste is awesome!",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_76_1",
+        "text": "I've used it for two weeks and have noticed results almost instantly.",
+        "net_id": "net_8",
+        "net": "Duration Of Effect",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_76_2",
+        "text": "My teeth are 2-3 times whiter and they shine so nice like they were polished.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_76_3",
+        "text": "It also makes my mouth feel clean and breath feel fresh.",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_76_4",
+        "text": "I give this toothpaste five star.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_77",
+    "segments": [
+      {
+        "segment_id": "resp_77_0",
+        "text": "This toothpaste is as reliable as I thought it would be.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      },
+      {
+        "segment_id": "resp_77_1",
+        "text": "It tastes on par with how toothpaste shotsste, and the packaging is appealing.",
+        "net_id": "net_1",
+        "net": "Taste And Flavor",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_77_2",
+        "text": "I found my teeth were glossy and clean every time.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_78",
+    "segments": [
+      {
+        "segment_id": "resp_78_0",
+        "text": "This toothpaste is amazing!",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_78_1",
+        "text": "My teeth are noticeably whiter and brighter.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_78_2",
+        "text": "After brushing, my teeth also feel smooth and clean.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_78_3",
+        "text": "My fresh breath lasts longer too!",
+        "net_id": "net_4",
+        "net": "Breath Freshness",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_78_4",
+        "text": "Great product.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      },
+      {
+        "segment_id": "resp_78_5",
+        "text": "Definitely recommend!",
+        "net_id": "net_6",
+        "net": "Product Recommendation",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_79",
+    "segments": [
+      {
+        "segment_id": "resp_79_0",
+        "text": "This toothpaste is amazing and has a great flavor",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_8",
+    "segments": [
+      {
+        "segment_id": "resp_8_0",
+        "text": "Was a strong flavored and fresh smelling paste that seemed to be fast acting and made me feel like my teeth were fresh and somewhat whiter after each use.",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_80",
+    "segments": [
+      {
+        "segment_id": "resp_80_0",
+        "text": "This toothpaste is A Game Changer, not only does it taste great, it actually has made my mouth feel fresher and my teeth are visibly whiter!",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      },
+      {
+        "segment_id": "resp_80_1",
+        "text": "This is a MUST!",
+        "net_id": "net_6",
+        "net": "Product Recommendation",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_81",
+    "segments": [
+      {
+        "segment_id": "resp_81_0",
+        "text": "This toothpaste I used is perfect .",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_81_1",
+        "text": "My teeth look a lot better ,they are bright and shiny.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_81_2",
+        "text": "They look pretty.",
+        "net_id": "net_7",
+        "net": "Appearance And Aesthetics",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_82",
+    "segments": [
+      {
+        "segment_id": "resp_82_0",
+        "text": "This toothpaste has just the right amount of foaming action and leaves your entire mouth feeling clean.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_83",
+    "segments": [
+      {
+        "segment_id": "resp_83_0",
+        "text": "This toothpaste has an amazing feel.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_83_1",
+        "text": "It makes your teeth feel extremely clean and smooth after using it, and my teeth are brighter than they have been in a while.",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_84",
+    "segments": [
+      {
+        "segment_id": "resp_84_0",
+        "text": "This toothpaste has a very clean, refreshing feel and taste ….",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      },
+      {
+        "segment_id": "resp_84_1",
+        "text": ".taste lasts after using for awhile too.",
+        "net_id": "net_8",
+        "net": "Duration Of Effect",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_84_2",
+        "text": "My teeth feel and look shiny and seem whiter!!",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_84_3",
+        "text": "No negative's to say",
+        "net_id": "net_8",
+        "net": "Duration Of Effect",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_85",
+    "segments": [
+      {
+        "segment_id": "resp_85_0",
+        "text": "This toothpaste has a pleasant taste and aroma, and seems to effectively clean my teeth.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_85_1",
+        "text": "My mouth stays fresh for a decent period of time.",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_86",
+    "segments": [
+      {
+        "segment_id": "resp_86_0",
+        "text": "This toothpaste has a great taste, very easy to use and easy to see the results.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      },
+      {
+        "segment_id": "resp_86_1",
+        "text": "My teeth felt shinier, I would say my teeth are pretty white and so I didn't see too much improvement in that area but my breath smelled a TON better than any of the other toothpastes I'd been using.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_86_2",
+        "text": "This definitely would be my new go to!",
+        "net_id": "net_6",
+        "net": "Product Recommendation",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_87",
+    "segments": [
+      {
+        "segment_id": "resp_87_0",
+        "text": "This Toothpaste has a good taste.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_87_1",
+        "text": "It cleans my teeth and makes them feel like they were cleaned by a dentist.",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_87_2",
+        "text": "It helps to whiten your teeth as you use it each time.",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_88",
+    "segments": [
+      {
+        "segment_id": "resp_88_0",
+        "text": "This toothpaste has a good minty flavor leaves my teeth feeling clean and my mouth refreshed as well I can tell that my teeth are not only wider but they are brighter since using this toothpaste",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_89",
+    "segments": [
+      {
+        "segment_id": "resp_89_0",
+        "text": "This toothpaste has a fresh clean taste and keeps my teeth clean all day.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_89_1",
+        "text": "My teeth feel so smooth when I brush.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_89_2",
+        "text": "And over the last 2 weeks my teeth have gotten brighter.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_89_3",
+        "text": "I would recommend this to anyone who wants a better smile!",
+        "net_id": "net_6",
+        "net": "Product Recommendation",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_9",
+    "segments": [
+      {
+        "segment_id": "resp_9_0",
+        "text": "Very refreshing Toothpaste.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_9_1",
+        "text": "Made my teeth feel fresh and clean",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_90",
+    "segments": [
+      {
+        "segment_id": "resp_90_0",
+        "text": "This toothpaste had my mouth feeling bright, clean, and fresh!",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_90_1",
+        "text": "Started whitening my teeth after the first couple uses!",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_90_2",
+        "text": "Made my teeth feel a bit sensitive but I've had that reaction with most whitening toothpastes.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_90_3",
+        "text": "Would definitely keep using this.",
+        "net_id": "net_6",
+        "net": "Product Recommendation",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_91",
+    "segments": [
+      {
+        "segment_id": "resp_91_0",
+        "text": "This toothpaste gives you a nice white shiny appearance to your teeth",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_92",
+    "segments": [
+      {
+        "segment_id": "resp_92_0",
+        "text": "This toothpaste gives me the freshest breath and lingering freshness.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_92_1",
+        "text": "My teeth feel smooth and are shiny.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_92_2",
+        "text": "I've noticed an improvement in stains.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_93",
+    "segments": [
+      {
+        "segment_id": "resp_93_0",
+        "text": "This toothpaste freshener your breath longer than others.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      },
+      {
+        "segment_id": "resp_93_1",
+        "text": "It whitens really well and made my teeth feel better.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_93_2",
+        "text": "It is definately a good investment of your money.",
+        "net_id": "net_6",
+        "net": "Product Recommendation",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_94",
+    "segments": [
+      {
+        "segment_id": "resp_94_0",
+        "text": "This toothpaste cleans my teeth.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_94_1",
+        "text": "My teeth are whiter than ever.",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_94_2",
+        "text": "It has a great taste",
+        "net_id": "net_1",
+        "net": "Taste And Flavor",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_95",
+    "segments": [
+      {
+        "segment_id": "resp_95_0",
+        "text": "This toothpaste cleans effectively, leaving your mouth feeling fresh without irritation.",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_95_1",
+        "text": "It creates a pleasant amount of foam and ensures a refreshing breath that lasts.",
+        "net_id": "net_4",
+        "net": "Breath Freshness",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_95_2",
+        "text": "The formula is gentle yet powerful, making it an ideal choice for daily use.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      },
+      {
+        "segment_id": "resp_95_3",
+        "text": "Highly recommended for a comfortable and clean experience.",
+        "net_id": "net_6",
+        "net": "Product Recommendation",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_96",
+    "segments": [
+      {
+        "segment_id": "resp_96_0",
+        "text": "This toothpaste brand is refreshing for my mouth and has a terrific taste.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_96_1",
+        "text": "After I'm done brushing my teeth I get a cool fresh feeling",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_97",
+    "segments": [
+      {
+        "segment_id": "resp_97_0",
+        "text": "This tooth paste was amazing.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_97_1",
+        "text": "It made my teeth feel so clean and feel so shiny I would love to buy this product",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_98",
+    "segments": [
+      {
+        "segment_id": "resp_98_0",
+        "text": "This tooth paste was amazing the best I have ever used.",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "net_0",
+        "subnet": "Positive Toothpaste Experience"
+      },
+      {
+        "segment_id": "resp_98_1",
+        "text": "It keeps your mouth staying fresh and clean making teeth whiter and looking great.",
+        "net_id": "net_0_split_1",
+        "net": "Toothpaste Effects",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  },
+  {
+    "response_id": "resp_99",
+    "segments": [
+      {
+        "segment_id": "resp_99_0",
+        "text": "This tooth paste is amazing .",
+        "net_id": "net_3_split_0",
+        "net": "Positive Experience",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_99_1",
+        "text": "I realized whitening after first use .",
+        "net_id": "net_2_split_1",
+        "net": "Improved Whitening",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      },
+      {
+        "segment_id": "resp_99_2",
+        "text": "I wish I knew the name brand so I could buy more for future uses",
+        "net_id": "net_6",
+        "net": "Product Recommendation",
+        "subnet_id": "Unknown",
+        "subnet": "Unknown"
+      }
+    ]
+  }
+]

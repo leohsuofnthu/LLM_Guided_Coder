@@ -1,0 +1,58 @@
+segmenter:
+  strategy: pysbd
+  text_column: Responses
+  max_segments_per_response: 6
+  pysbd_language: en
+embedder:
+  model_name: intfloat/e5-small-v2
+  batch_size: 512
+  normalize: true
+labeler:
+  max_examples_per_cluster: 40
+  max_words: 10
+  temperature: 0.0
+  system_prompt: >
+    You are a market research analyst. Summarize the theme of the provided survey segments.
+coder:
+  include_examples: true
+  output_path: data/coded_responses.json
+gemini:
+  model_name: gemini-2.0-flash-lite
+  api_key_env: GOOGLE_API_KEY
+  temperature: 0.0
+storage:
+  base_dir: data
+discovery:
+  enabled: true
+  max_iterations: 3
+  assignment_threshold: 0.4
+  max_bootstrap_nets: 12
+  bootstrap_rounds: 1
+  bootstrap_seeds_per_net: 7
+  min_net_size: 20
+  min_net_size_pct: 0.001  # Drop nets < 0.1% of total segments
+  merge_similarity_threshold: 1.0  # Disable merging; only identical nets merge
+  unknown_label: Unknown
+  max_unknown_clusters: 8
+  max_llm_calls: 80  # LLM call budget
+  max_refresh_per_iteration: 10
+  # Diversity sampling (percentage-based)
+  bootstrap_sample_pct: 0.10  # 10% of total segments for diverse bootstrap
+  unknown_sample_pct: 0.30  # 30% of unknown segments for mining
+  subnet_sample_pct: 0.40  # 40% of subnet members for discovery
+  # Advanced parameters (rarely changed)
+  duplicate_similarity_threshold: 0.95  # Higher for narrow domains
+  dedupe_enabled: true
+  min_parent_child_similarity: 0.5
+  min_subnet_fraction: 0.03
+  split_silhouette_threshold: 0.01
+  max_total_nets: 300
+  improvement_tol: 0.01
+  subnet:
+    enabled: true
+    min_size: 25
+    max_iterations: 2
+    max_subnets: 6
+    seeds_per_subnet: 6
+    assignment_threshold: 0.4
+    variance_threshold: 0.0  # Allow subnets even in low-variance domains
